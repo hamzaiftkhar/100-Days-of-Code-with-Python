@@ -10,3 +10,5 @@ For this course you need strong commitment and dedication. You need to be consis
 We will be covering the topics day by day. Each day you will be learning new concepts and practicing them.
 
 #### [Day-01](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-01) - Introduction to Python Programming and its Applications
+
+#### [Day-02](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-02) - Python Installation Modules and Pips in Python
