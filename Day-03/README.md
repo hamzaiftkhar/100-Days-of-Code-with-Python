@@ -2,6 +2,8 @@
 
 ## Our First Program
 
+The first Traditional program that we write in any programming language in our learning phase is called a Hello World Program. In this program, we simply print out the words Hello World! on our screen. This is a very simple program but it's important to understand what's going on here. Let's take a look at the code below:
+
 ```python
 print("Hello World!")
 ```
@@ -9,7 +11,7 @@ output:
 ```python   
 Hello World!
 ```
-now we have idea what is Python Programming Language, Here is the most basic examples and dive deeper into what's going on. When we run this code either locally on our machine or on a web interpreter, the words hello world appear on the screen just like shown above.
+Now we have idea what is Python Programming Language, Here is the most basic examples and dive deeper into what's going on. When we run this code either locally on our machine or on a web interpreter, the words hello world appear on the screen just like shown above.
 
 ### print() function
 
