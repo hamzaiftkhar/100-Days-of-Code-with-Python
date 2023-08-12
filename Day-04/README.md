@@ -101,13 +101,13 @@ Output:
 #### Explicit Conversion 
 When code is written to manually convert one data type to another using a data type conversion function:
 
-- str() - converts a value (often numeric) to a string data type
+- **str()** - converts a value (often numeric) to a **string** data type.
 
-- int() - converts a value (usually a float) to an integer data type
+- **int()** - converts a value (usually a float) to an **integer** data type.
 
-- float() - converts a value (usually an integer) to a float data type
+- **float()** - converts a value (usually an integer) to a **float** data. type
 
-- bool() - converts a value to a boolean data type
+- **bool()** - converts a value to a **boolean** data type.
 
 Examples of Explicit Conversion:
 
