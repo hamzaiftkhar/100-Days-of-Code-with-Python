@@ -27,6 +27,27 @@ print(dict1)
 # [8, 2.3, [-4, 5], ['apple', 'banana']]
 # (('parrot', 'sparrow'), ('Lion', 'Tiger'))
 # {'name': 'Hamza', 'age': 20, 'canVote': True}
+
+#----------------------------------------------
+
+# float to int
+a = 10.5
+b = int(a)
+print(b)
+#output: 10
+
+# int to str
+a = 10
+b = str(a)
+print(b)
+#output: 10
+
+# str to int
+a = "10"
+b = int(a)
+print(b)
+#output: 10
+
 #----------------------------------------------
 
 #Example 1
