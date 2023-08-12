@@ -121,3 +121,25 @@ Output:
 ```python
     10.0
 ``````
+## Type() Function
+
+**type()** - a built-in function used to determine the data type of a variable or value.
+
+```python
+    # type() function
+    type(variable_name)
+```
+Data type specifies the type of value a variable holds. This is required in programming to do various operations without causing an error.
+In python, we can print the type of any operator using type function:
+
+```python
+a = 1
+print(type(a))
+b = "1"
+print(type(b))
+```
+Output:
+```python
+    <class 'int'>
+    <class 'str'>
+```
