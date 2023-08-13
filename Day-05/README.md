@@ -87,4 +87,17 @@ Below is a list of arithmetic operators in Python along with their descriptions 
 | //       | Division (floor): divides the first operand by the second, returning an integer quotient | x // y |
 | %        | Modulus: returns the remainder when the first operand is divided by the second | x % y |
 | **       | Power: Returns first raised to power second | x ** y   |
-   
+
+## Precedence of Arithmetic Operators in Python
+The precedence of Arithmetic Operators in python is as follows:
+
+1. **P** – Parentheses
+2. **E** – Exponentiation
+3. **M** – Multiplication (Multiplication and division have the same precedence)
+4. **D** – Division
+5. **A** – Addition (Addition and subtraction have the same precedence)
+6. **S** – Subtraction
+
+You might find the **PEMDAS** mnemonic device to be helpful in remembering the order.
+
+For all the examples related to above concepts visit [main.py]()
