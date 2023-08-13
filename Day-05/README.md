@@ -100,4 +100,4 @@ The precedence of Arithmetic Operators in python is as follows:
 
 You might find the **PEMDAS** mnemonic device to be helpful in remembering the order.
 
-For all the examples related to above concepts visit [main.py]()
+For all the examples related to above concepts visit [main.py](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-05/main.py)
