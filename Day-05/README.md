@@ -1,4 +1,4 @@
-# First Programming Concepts and Operations in Python
+# First Programming Concepts and Arithmatic Operators in Python
 
 ## Print() function
 
@@ -67,3 +67,24 @@ Output:
 ```python
 [‘False’, ‘None’, ‘True’, ‘and’, ‘as’, ‘assert’, ‘async’, ‘await’, ‘break’, ‘class’, ‘continue’, ‘def’, ‘del’, ‘elif’, ‘else’, ‘except’, ‘finally’, ‘for’, ‘from’, ‘global’, ‘if’, ‘import’, ‘in’, ‘is’, ‘lambda’, ‘nonlocal’, ‘not’, ‘or’, ‘pass’, ‘raise’, ‘return’, ‘try’, ‘while’, ‘with’, ‘yield’]
 ```
+
+## Arithmetic operators
+
+Arithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication, etc.
+
+# Arithmetic Operators in Python
+
+Python can calculate numbers using common mathematical operators, along with some special operators.
+
+Below is a list of arithmetic operators in Python along with their descriptions and syntax:
+
+| Operator | Description                    | Syntax       |
+|----------|--------------------------------|--------------|
+| +        | Addition: adds two operands     | x + y        |
+| -        | Subtraction: subtracts two operands | x - y     |
+| *        | Multiplication: multiplies two operands | x * y   |
+| /        | Division (float): divides the first operand by the second | x / y |
+| //       | Division (floor): divides the first operand by the second, returning an integer quotient | x // y |
+| %        | Modulus: returns the remainder when the first operand is divided by the second | x % y |
+| **       | Power: Returns first raised to power second | x ** y   |
+   
