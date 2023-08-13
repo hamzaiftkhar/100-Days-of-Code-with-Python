@@ -9,12 +9,12 @@ The print() function is used to display information on the screen. It is a built
 ```python
 # Syntax for printing a string of text.
 
-print("Hello forks! its Day-05 of 100DaysOfCode Challenge.")
+print("Hello folks! its Day-05 of 100DaysOfCode Challenge.")
 ```
 Output:
 
 ```python
-Hello forks! its Day-05 of 100DaysOfCode Challenge.
+Hello folks! its Day-05 of 100DaysOfCode Challenge.
 ```
 
 ## Keywords
