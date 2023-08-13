@@ -1,4 +1,4 @@
-# First Programming Concepts and Arithmatic Operators in Python
+# First Programming Concepts and Arithmetic Operators in Python
 
 ## Print() function
 
