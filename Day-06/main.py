@@ -54,3 +54,48 @@ c = 1.9
 d = 8
 
 print(c + d)
+
+# User Input Examples
+
+username = input("Enter username:")
+print("Username is: " + username)
+
+#----------------------------------------------
+
+# Taking input as string
+color = input("What color is rose?: ")
+print(color)
+
+# Taking input as int
+# Typecasting to int
+n = int(input("How many roses?: "))
+print(n)
+
+# Taking input as float
+# Typecasting to float
+price = float(input("Price of each rose?: "))
+print(price)
+
+# using input() to take user input
+num = input('Enter a number: ')
+
+print('You Entered:', num)
+
+print('Data type of num:', type(num))
+
+# using eval() to evaluate data type of user input
+num = eval(input('Enter a number: '))
+print('You Entered:', num)
+
+print('Data type of num:', type(num))
+
+#----------------------------------------------
+
+a = input("Enter your name: ")
+print("My name is", a)
+
+x = input("Enter first number: ")
+y = input("Enter second number: ")
+print(x  + y)
+
+print(int(x) + int(y))
