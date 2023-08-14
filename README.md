@@ -18,3 +18,5 @@ We will be covering the topics day by day. Each day you will be learning new con
 #### [Day-04](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-04) - Variables and Data Types in Python
 
 #### [Day-05](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-05) - First Programming Concepts and Arithmetic Operators in Python
+
+#### [Day-06](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-06) -How to Take User Input and Typecasting in Python
