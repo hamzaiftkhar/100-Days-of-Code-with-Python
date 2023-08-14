@@ -1,4 +1,4 @@
-# How to Take User Input and Type Casting in Python
+# How to Take User Input and Typecasting in Python
 
 Developers often have a need to interact with users, either to get data or to provide some sort of result. Most programs today use a dialog box as a way of asking the user to provide some type of input. While Python provides us with two inbuilt functions to read the input from the keyboard. 
 
