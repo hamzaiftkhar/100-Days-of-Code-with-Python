@@ -63,3 +63,13 @@ The BMI formula is BMI = kg/m2 where kg is a person's weight in kilograms and m2
 Create a function in Python that accepts two parameters. The first should be the full price of an item as an integer. The second should be the discount percentage as an integer.
 
 The function should return the price of the item after the discount has been applied. For example, if the price is 100 and the discount is 20, the function should return 80.
+
+
+## Additional Resources
+
+- [Welcome to Python](https://www.python.org/shell/)
+- [Online Python-3 Compiler](https://www.tutorialspoint.com/execute_python3_online.php)
+- [Installing Python Modules](https://docs.python.org/3/installing/index.html)
+- [Python Data Types](https://www.geeksforgeeks.org/python-data-types/)
+- [Operators in Python](https://www.geeksforgeeks.org/python-operators/?ref=lbp)
+- [Taking multiple inputs from user in Python](https://www.geeksforgeeks.org/taking-multiple-inputs-from-user-in-python/?ref=lbp)
