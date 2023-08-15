@@ -20,3 +20,5 @@ We will be covering the topics day by day. Each day you will be learning new con
 #### [Day-05](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-05) - First Programming Concepts and Arithmetic Operators in Python
 
 #### [Day-06](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-06) -How to Take User Input and Typecasting in Python
+
+#### [Day-07](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-07) - Week-01 Review and Our First Challenge Exercise
