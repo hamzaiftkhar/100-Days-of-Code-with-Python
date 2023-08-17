@@ -115,3 +115,52 @@ n
 g
 ```
 We will learn about loops in detail in upcoming days. 
+
+## String Length
+
+The **len()** function returns the length of a string:
+```python
+a = "Hello, World!"
+print(len(a))
+```
+Output:
+```python
+13
+```
+## Check String
+
+To check if a certain phrase or character is present in a string, we can use the keyword **in**.
+
+Example:
+```python
+txt = "The best things in life are free!"
+print("free" in txt)
+```
+Output:
+```python
+True
+```
+
+## Check if NOT in String
+
+To check if a certain phrase or character is NOT present in a string, we can use the keyword **not in**.
+
+Example:
+```python
+txt = "The best things in life are free!"
+print("expensive" not in txt)
+```
+Output:
+```python
+True
+```
+Use it in **if** statement:
+```python
+txt = "The best things in life are free!"
+if "expensive" not in txt:
+  print("No, 'expensive' is NOT present.")
+```
+Output:
+```python
+No, 'expensive' is NOT present.
+```
