@@ -24,3 +24,5 @@ We will be covering the topics day by day. Each day you will be learning new con
 #### [Day-07](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-07) - Week-01 Review and Our First Challenge Exercise
 
 #### [Day-08](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-08) - Our First Challenge Exercise(Solutions)
+
+#### [Day-09](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-09) - String in Python
