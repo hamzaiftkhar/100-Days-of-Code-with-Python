@@ -26,3 +26,33 @@ Output:
 ```python
 He said, "I want to eat an apple"
 ```
+
+## Multiline Strings
+
+Sometimes, you might need to print a string that spans multiple lines. For example, consider the following string:
+
+You can use three double quotes:
+```python
+a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(a)
+```
+Or three single quotes:
+```python
+a = '''Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.'''
+print(a)
+```
+
+Output:
+```python
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+```
+**Note:** In the result, the line breaks are inserted at the same position as in the code.
