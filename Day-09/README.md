@@ -56,3 +56,62 @@ sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua.
 ```
 **Note:** In the result, the line breaks are inserted at the same position as in the code.
+
+## Strings are Arrays(Accessing Characters of String)
+
+Like many other popular programming languages, strings in Python are arrays of bytes representing unicode characters.
+
+However, Python does not have a character data type, a single character is simply a string with a length of 1.
+
+Square brackets can be used to access elements of the string.
+
+Example:
+```python
+a = "Hello, World!"
+print(a[1])
+```
+Output:
+```python
+e
+```
+Example:
+```python
+name = "Hamza"
+print(name[0])
+print(name[1])
+print(name[2])
+print(name[3])
+print(name[4])
+```
+Output:
+```python
+H
+a
+m
+z
+a
+```
+
+## Looping through String
+
+We can loop through strings using a for loop like this:
+
+```python
+for x in "Programming":
+  print(x)
+```
+Output
+```python
+P
+r
+o
+g
+r
+a
+m
+m
+i
+n
+g
+```
+We will learn about loops in detail in upcoming days. 
