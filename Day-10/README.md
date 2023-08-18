@@ -156,3 +156,5 @@ Python has a set of built-in methods that you can use on strings.
 | translate()   | Modifies the string using translation mappings      |
 | upper()       | Converts all characters to uppercase                 |
 | zfill()       | Pads the string with zeros on the left               |
+
+Examples of these methods will be covered in the next day lesson.
