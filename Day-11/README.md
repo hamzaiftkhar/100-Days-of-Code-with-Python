@@ -69,3 +69,53 @@ Python is awesome
 Original String
 Python is awesome
 ```
+
+
+Python has a set of built-in methods that you can use on strings.
+
+
+| Function Name | Description                                              |
+|---------------|----------------------------------------------------------|
+| capitalize()  | Converts the first character to uppercase                |
+| casefold()    | Implements caseless string matching                     |
+| center()      | Pad the string with the specified character             |
+| count()       | Returns the count of occurrences of a substring         |
+| encode()      | Encodes the string with the specified encoding scheme  |
+| endswith()    | Returns True if the string ends with a given suffix     |
+| expandtabs()  | Replace tabs with spaces in the string                  |
+| find()        | Returns the lowest index of a substring                 |
+| format()      | Formats the string for printing                        |
+| format_map()  | Formats a string using values from a dictionary        |
+| index()       | Returns the index of the first occurrence of a substring|
+| isalnum()     | Checks if all characters are alphanumeric             |
+| isalpha()     | Checks if all characters are alphabetic               |
+| isdecimal()   | Checks if all characters are decimal                  |
+| isdigit()     | Checks if all characters are digits                   |
+| isidentifier()| Checks if a string is a valid identifier              |
+| islower()     | Checks if all characters are lowercase                |
+| isnumeric()   | Checks if all characters are numeric                  |
+| isprintable() | Checks if all characters are printable                |
+| isspace()     | Checks if all characters are whitespace               |
+| istitle()     | Checks if the string is in title case                 |
+| isupper()     | Checks if all characters are uppercase                |
+| join()        | Concatenates strings with a specified separator       |
+| ljust()       | Left-aligns the string within a specified width       |
+| lower()       | Converts all characters to lowercase                 |
+| lstrip()      | Removes leading characters                            |
+| maketrans()   | Creates a translation table                           |
+| partition()   | Splits the string at the first occurrence of a separator|
+| replace()     | Replaces occurrences of a substring with another     |
+| rfind()       | Returns the highest index of a substring             |
+| rindex()      | Returns the highest index of a substring             |
+| rjust()       | Right-aligns the string within a specified width     |
+| rpartition()  | Splits the string into three parts                   |
+| rsplit()      | Splits the string from the right by a separator      |
+| rstrip()      | Removes trailing characters                          |
+| splitlines()  | Splits the string into lines                         |
+| startswith()  | Returns True if the string starts with a prefix      |
+| strip()       | Removes leading and trailing characters              |
+| swapcase()    | Swaps case of characters                             |
+| title()       | Converts the string to title case                    |
+| translate()   | Modifies the string using translation mappings      |
+| upper()       | Converts all characters to uppercase                 |
+| zfill()       | Pads the string with zeros on the left               |
