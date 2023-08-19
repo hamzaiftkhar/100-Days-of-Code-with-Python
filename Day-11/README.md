@@ -52,22 +52,22 @@ Output:
 
 ```python
 Converted String:
-PYTHON IS AWESOME
+PYTHON IS AWESOME   #upper
 
 Converted String:
-python is awesome
+python is awesome   #lower
 
 Converted String:
-Python Is Awesome
+Python Is Awesome   #title
 
 Converted String:
-pYTHON IS AWESOME
+pYTHON IS AWESOME   #swapcase
 
 Converted String:
-Python is awesome
+Python is awesome   #capitalize
 
 Original String
-Python is awesome
+Python is awesome   #original
 ```
 
 
