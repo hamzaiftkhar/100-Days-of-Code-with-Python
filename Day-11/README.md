@@ -53,21 +53,29 @@ Output:
 ```python
 Converted String:
 PYTHON IS AWESOME   #upper
+#upper() function to convert string to upper case
 
 Converted String:
 python is awesome   #lower
+#lower() function to convert string to lower case
 
 Converted String:
 Python Is Awesome   #title
+#title converts the first character of a string to uppercase
+#and rest to lower case
 
 Converted String:
 pYTHON IS AWESOME   #swapcase
+#swaps the case of all characters in the string
 
 Converted String:
 Python is awesome   #capitalize
+#convert the first character of a string to uppercase
 
 Original String
 Python is awesome   #original
+#original string never changes
+
 ```
 
 
