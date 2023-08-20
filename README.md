@@ -30,3 +30,5 @@ We will be covering the topics day by day. Each day you will be learning new con
 #### [Day-10](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-10) -Exploring Python String Manipulation: Indexing, Slicing, and Essential Methods
 
 #### [Day-11](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-11) - Basic and Advance String Methods in Python
+
+#### [Day-12](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-12) - Python String Formatting [format() method]
