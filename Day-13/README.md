@@ -205,3 +205,78 @@ Based on this, the conditional statements are further classified into following 
     odd      #9
     even    #10
     ```
+
+4. ## Nested if-else-elif Statements
+
+    We can use if, if-else, elif statements inside other if statements as well.
+
+    Example:
+
+    ```python
+    num = 18
+    if (num < 0):
+        print("Number is negative.")
+    elif (num > 0):
+        if (num <= 10):
+            print("Number is between 1-10")
+        elif (num > 10 and num <= 20):
+            print("Number is between 11-20")
+        else:
+            print("Number is greater than 20")
+    else:
+        print("Number is zero")
+    ```
+
+    Output:
+
+    ```python
+    Number is between 11-20
+    ```
+
+
+### Comparison operators with numerical values
+Comparison expressions return a Boolean result (True or False). 
+
+- **x == y**____If x is equal to y, return True. Else, return False.
+
+- **x != y**____If x is not equal to y, return True. Else, return False.
+
+- **x < y**____If x is less than y, return True. Else, return False.
+
+- **x <= y**____If x is less than or equal to y, return True. Else, return False.
+
+- **x > y**____If x is greater than y, return True. Else, return False.
+
+- **x >= y**____If x is greater or equal to y, return True. Else, return False.
+
+### Comparison operators with strings
+
+Comparison expressions with strings also return a Boolean result (True or False).
+
+- `"x" == "y"`: If the words are the same, return True. Else, return False.
+- `"x" != "y"`: If the words are not the same, return True. Else, return False.
+
+When used with strings, the following comparison expressions will alphabetize the strings.
+
+- `"x" < "y"`: If string "x" has a smaller Unicode value than string "y", return True. Else, return False.
+- `"x" <= "y"`: If the Unicode value for string "x" is smaller than or equal to the Unicode value of string "y", return True. Else, return False.
+- `"x" > "y"`: If string "x" has a larger Unicode value than string "y", return True. Else, return False.
+- `"x" >= "y"`: If the Unicode value for string "x" is greater than or equal to the Unicode value of string "y", return True. Else, return False.
+
+Logical Operators
+==================
+
+Logical operators are used to combine comparison expressions and also return Boolean results (True or False).
+
+- comparison1 **and** comparison2
+    -  Returns True if both comparison1 **and** comparison2 are true.
+    - If they are not both true, returns False.
+
+- comparison1 **or** comparison2:
+    - Returns True if either comparison1 and/or comparison2 is True.
+    - If neither comparison is true, returns False.
+
+- **not** comparison1:
+     - Returns the inverse Boolean value of the comparison.
+        - Returns True if comparison1 is false.
+        - If comparison1 is true, then returns False.
