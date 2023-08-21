@@ -128,3 +128,80 @@ Based on this, the conditional statements are further classified into following 
     ```python
     ['odd', 'even', 'odd', 'even', 'odd', 'even', 'odd', 'even', 'odd', 'even']
     ```
+
+3. ## if-elif-else Statements
+
+    Sometimes, the programmer may want to evaluate more than one condition, this can be done using an elif statement.
+
+    Here, a user can decide among multiple options. The if statements are executed from the top down. As soon as one of the conditions controlling the if is true, the statement associated with that if is executed, and the rest of the ladder is bypassed. If none of the conditions is true, then the final else statement will be executed.
+
+    Syntax:
+
+    ```python
+    if (condition):
+        # Executes this block if
+        # condition1 is true
+    elif (condition2):
+        # Executes this block if
+        # condition2 is true
+    elif (condition3):
+        # Executes this block if
+        # condition3 is true
+    else:
+        # Executes this block if
+        # none of the above condition is true
+    ```
+
+    Example:
+
+    ```python
+    # Python program to illustrate if-elif-else ladder
+    #!/usr/bin/python
+
+    i = 20
+    if (i == 10):
+        print("i is 10")
+    elif (i == 15):
+        print("i is 15")
+    elif (i == 20):
+        print("i is 20")
+    else:
+        print("i is not present")
+    ```
+
+    Output:
+
+    ```python
+    i is 20
+    ```
+
+    - Example of Python if elif else statement in a list
+
+    ```python
+    numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+    even_odd_labels = [
+        if num % 2 == 0:
+            print("even")
+        elif num % 2 != 0:
+            print("odd")
+        else:
+            print("unknown")
+        for num in numbers
+    ]
+    ```
+
+    Output:
+
+    ```python
+    odd      #1
+    even     #2
+    odd      #3
+    even     #4
+    odd      #5
+    even     #6
+    odd      #7
+    even     #8
+    odd      #9
+    even    #10
+    ```
