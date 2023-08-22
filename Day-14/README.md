@@ -99,3 +99,15 @@ Create a python program capable of greeting you with Good Morning, Good Afternoo
 - If the time is between 10 PM to 4 AM print Good Night.
 
 Hint: Use datetime module to get the current time of the system.
+
+## Additional Resources
+
+- [70+ Python if-else Problem Questions](https://csiplearninghub.com/python-if-else-conditional-statement-practice/)
+
+- [Python Conditional Statement Quiz](https://realpython.com/quizzes/python-conditional-statements/)
+
+- [Python String Quiz](https://www.geeksforgeeks.org/python-string-quiz/)
+
+- [Python Practice Problem For Beginner](https://ischoolonline.berkeley.edu/blog/python-practice-problems/)
+
+- [Python time module guide](https://docs.python.org/3/library/time.html#time.strftime)
