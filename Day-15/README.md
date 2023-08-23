@@ -5,12 +5,14 @@
 ```
 Write a Program to check weather the last digit of a number is divisible by 3 or not.
 ```
+[Solution Question-1](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-15/Question-1.py)
 
 ## Question 2:
 
 ```
 Write a Program to check weather the input number in 4 digits or not.
 ```
+[Solution Question-2](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-15/Question-2.py)
 
 ## Question 3:
 
@@ -34,6 +36,8 @@ According to following criteria:
 - Result should be rounded off to 2 decimal places.
 ```
 
+[Solution Question-3](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-15/Question-3.py)
+
 ## Question 4:
 
 ```
@@ -49,6 +53,8 @@ A Company decided to give bonus to their Employee according to following criteri
 - Ask user to enter their salary and years of service and print the net bonus amount.
 ```
 
+[Solution Question-4](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-15/Question-4.py)
+
 ## Question 5:
 
 ```
@@ -63,3 +69,5 @@ Create a python program capable of greeting you with Good Morning, Good Afternoo
 
 Hint: Use datetime module to get the current time of the system.
 ```
+
+[Solution Question-5](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-15/Question-5.py)
