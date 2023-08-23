@@ -36,3 +36,5 @@ We will be covering the topics day by day. Each day you will be learning new con
 #### [Day-13](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-13) -Conditional Statements (if-elif-else) in Python
 
 #### [Day-14](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-14) - Week-02 Review and Our Second Challenge Exercise
+
+#### [Day-15](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-15) - Our Second Challenge Exercise [ Solutions ]
