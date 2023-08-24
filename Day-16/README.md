@@ -106,3 +106,28 @@ Output:
 ```python
 Hello, Python Programmer
 ```
+
+## Calling a  Python Function
+
+Once we have defined a function, we can call it from anywhere in our program. To call a function, we simply need to write the function name with the parentheses.
+
+Example:
+
+```python
+# Python program to illustrate
+# calling a function
+
+# A simple Python function
+def fun():
+    print("Welcome to 100-days-of-code-with-python-programming")
+
+
+# Driver code to call a function
+fun()
+```
+
+Output:
+
+```python
+Welcome to 100-days-of-code-with-python-programming
+```
