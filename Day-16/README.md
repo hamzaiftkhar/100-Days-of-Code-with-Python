@@ -131,3 +131,35 @@ Output:
 ```python
 Welcome to 100-days-of-code-with-python-programming
 ```
+
+## Python Function Arguments
+
+In Python, we can pass a variable number of arguments to a function. This means that we do not need to know the exact number of arguments that we will pass to a function beforehand. We can call a function with any number of arguments.
+
+Arguments are the values passed inside the parenthesis of the function. A function can have any number of arguments separated by a comma.
+
+In this example, we will create a simple function in Python to check whether the number passed as an argument to the function is even or odd.
+
+Example:
+
+```python
+# A simple Python function to check
+# whether x is even or odd
+def evenOdd(x):
+    if (x % 2 == 0):
+        print("even")
+    else:
+        print("odd")
+
+
+# Driver code to call the function
+evenOdd(2)
+evenOdd(3)
+```
+
+Output:
+
+```python
+even   # evenOdd(2) : even
+odd    # evenOdd(3) : odd
+```
