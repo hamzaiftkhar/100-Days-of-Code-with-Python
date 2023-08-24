@@ -28,5 +28,25 @@ There are two types of functions in Python:
 Python has several built-in functions. These functions are already defined in Python libraries and can be used directly by the user.
 These functions are defined and pre-coded in python. Some examples of built-in functions are as follows:
 
-min(), max(), len(), sum(), type(), range(), dict(), list(), tuple(), set(), print(), etc.
+min(), max(), len(), sum(), type(), range(), dict(), list(), tuple(), set(), print(), abs(), all() etc.
 
+Example:
+
+```python
+# Python program to illustrate
+# built-in functions
+
+# abs() : Returns the absolute value of a number
+print(abs(-1))
+
+# all() : Returns True if all elements of the iterable are true (or if the iterable is empty).
+print(all([1, 2, 3, 4, 5]))
+```
+
+Output:
+
+```python
+
+1   # abs() : Returns the absolute value of a number
+True    # all() : Returns True if all elements of the iterable are true (or if the iterable is empty).
+```
