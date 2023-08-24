@@ -197,3 +197,35 @@ Output:
 even   # evenOdd(2) : even
 odd    # evenOdd(3) : odd
 ```
+
+## Return Statement in Python Function
+
+In Python, the return statement is used to return a value from a function. The return statement is followed by an expression that is returned. If the return statement is without any expression, then the special value None is returned.
+
+The function return statement is used to exit from a function and go back to the function caller and return the specified value or data item to the caller. The syntax for the return statement is:
+
+```python
+return [expression_list]
+```
+
+The return statement can consist of a variable, an expression, or a constant which is returned at the end of the function execution. If none of the above is present with the return statement a None object is returned.
+
+Example: Python Function Return Statement
+
+```python
+def square_value(num):
+    """This function returns the square
+    value of the entered number"""
+    return num**2
+
+
+print(square_value(2))
+print(square_value(-4))
+```
+
+Output:
+
+```python
+4   # square_value(2) : 2**2 = 4
+16  # square_value(-4) : (-4)**2 = 16
+```
