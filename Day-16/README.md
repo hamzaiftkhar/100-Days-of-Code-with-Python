@@ -23,7 +23,7 @@ There are two types of functions in Python:
 - Built-in Functions
 - User-defined Functions
 
-### Built-in Functions
+### 1. Built-in Functions
 
 Python has several built-in functions. These functions are already defined in Python libraries and can be used directly by the user.
 These functions are defined and pre-coded in python. Some examples of built-in functions are as follows:
@@ -49,4 +49,60 @@ Output:
 
 1   # abs() : Returns the absolute value of a number
 True    # all() : Returns True if all elements of the iterable are true (or if the iterable is empty).
+```
+
+### 2. User-defined Functions
+
+User-defined functions are the functions that are defined by the user at the time of writing the program. The user can give any name to his/her function. The user-defined functions are created to perform a specific task. The user-defined functions are reusable and can be called through the program any number of times.
+
+Syntax:
+
+```python
+def function_name(parameters):
+    # code block
+
+
+Rules: -
+
+- Create a function using the def keyword, followed by a function name, followed by a paranthesis (()) and a colon(:).
+- Any parameters and arguments should be placed within the parentheses.
+- Rules to naming function are similar to that of naming variables.
+- Any statements and other code within the function should be indented.
+
+```
+
+#### Terms: -
+
+- **return value** - the value or variable returned as the end result of a function
+
+- **parameter (argument)** -  a value passed into a function for use within the function
+
+- **refactoring code** - a process to restructure code without changing functionality.
+
+- **function definition** - the code that makes up a function
+
+- **function call** - the code used to pass control to a function; also the name given to the function
+
+- **function** - a named set of instructions that defines a set of actions in Python
+
+- **function header** - the first line of a function definition
+
+- **function body** - the code inside a function definition
+
+Example:
+
+```python
+# Python program to illustrate
+# user-defined functions
+
+def name(first_name, last_name):
+    print("Hello,", first_name, last_name)
+
+name("Python", "Programmer")
+```
+
+Output:
+
+```python
+Hello, Python Programmer
 ```
