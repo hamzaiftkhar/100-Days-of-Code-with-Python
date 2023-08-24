@@ -38,3 +38,5 @@ We will be covering the topics day by day. Each day you will be learning new con
 #### [Day-14](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-14) - Week-02 Review and Our Second Challenge Exercise
 
 #### [Day-15](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-15) - Our Second Challenge Exercise [ Solutions ]
+
+#### [Day-16](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-16) - Functions in Python
