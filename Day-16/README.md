@@ -132,6 +132,40 @@ Output:
 Welcome to 100-days-of-code-with-python-programming
 ```
 
+## Python Function with Parameters
+
+In Python, we can pass a variable number of arguments to a function. This means that we do not need to know the exact number of arguments that we will pass to a function beforehand. We can call a function with any number of arguments.
+
+Syntax:
+
+```python
+ def function_name(parameter: data_type) -> return_type:
+    """Docstring"""
+    # body of the function
+    return expression
+```
+
+Example:
+
+```python
+def add(num1: int, num2: int) -> int:
+    """Add two numbers"""
+    num3 = num1 + num2
+
+    return num3
+
+# Driver code
+num1, num2 = 5, 15
+ans = add(num1, num2)
+print(f"The addition of {num1} and {num2} results {ans}.")
+```
+
+Output:
+
+```python
+The addition of 5 and 15 results 20.
+```
+
 ## Python Function Arguments
 
 In Python, we can pass a variable number of arguments to a function. This means that we do not need to know the exact number of arguments that we will pass to a function beforehand. We can call a function with any number of arguments.
