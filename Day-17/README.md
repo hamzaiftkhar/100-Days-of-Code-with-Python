@@ -124,3 +124,36 @@ Hamza Mark studies in Fifth Semester  # 1 keyword argument
 Hamza Mark studies in Seventh Semester  # 2 keyword arguments
 Hamza Iftikhar studies in Fifth Semester  # 2 keyword arguments
 ```
+
+### 3. Positional Arguments
+
+Positional arguments are those arguments that are passed to the function in the same order as they are received. The order of the arguments is crucial here.
+
+Position-only arguments mean whenever we pass the arguments in the order we have defined function parameters in which if you change the argument position then you may get the unexpected output. We should use positional Arguments whenever we know the order of argument to be passed. So now, we will call the function by using the position-only arguments in two ways and In both cases, we will be getting different outputs from which one will be correct and another one will be incorrect.
+
+```python
+def nameAge(name, age):
+    print("Hi, I am", name)
+    print("My age is ", age)
+
+# You will get correct output because argument is given in order
+print("Case-1:")
+nameAge("Python", 20)
+# You will get incorrect output because argument is not in order
+print("\nCase-2:")
+nameAge(20, "Python")
+```
+
+Output:
+
+```python
+Case-1:      # Correct Output
+Hi, I am Python
+My age is  20
+
+Case-2:      # Incorrect Output
+Hi, I am 20
+My age is  Python
+```
+
+**Note:** We should use the positional argument if we know the order of arguments or before using read the function you use and know the order of arguments to be passed over there otherwise you can get the wrong output as you can see in above-explained example for positional Argument.
