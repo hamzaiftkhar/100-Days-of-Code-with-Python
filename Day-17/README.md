@@ -216,3 +216,108 @@ first == 100
 mid == Days-of
 last == Python Programming
 ```
+
+## Return Statement
+
+A return statement is used to end the execution of the function call and “returns” the result (value of the expression following the return keyword) to the caller. The statements after the return statements are not executed. If the return statement is without any expression, then the special value None is returned. A return statement is overall used to invoke a function so that the passed statements can be executed.
+
+**Note:** Return statement can not be used outside the function.
+
+```python
+# Python program to
+# demonstrate return statement
+
+def add(a, b):
+
+    # returning sum of a and b
+    return a + b
+
+def is_true(a):
+
+    # returning boolean of a
+    return bool(a)
+
+# calling function
+res = add(2, 3)
+print("Result of add function is {}".format(res))
+
+res = is_true(2<5)
+print("\nResult of is_true function is {}".format(res))
+```
+
+Output:
+
+```python
+Result of add function is 5
+
+Result of is_true function is True
+```
+
+#### Returning Multiple Values
+
+In Python, we can return multiple values from a function. This can be done by returning a tuple, list, or dictionary of values.
+
+```python
+# A Python program to return multiple
+# values from a method using tuple
+
+# This function returns a tuple
+def fun():
+    str = "100-Days-of-Code-with-Python"
+    x = 20
+    return str, x; # Return tuple, we could also
+                    # write (str, x)
+
+# Driver code to test above method
+str, x = fun() # Assign returned tuple
+print(str)
+print(x)
+```
+
+Output:
+
+```python
+100-Days-of-Code-with-Python   #print(str)
+20                            #print(x)
+```
+
+#### Function returning another function
+
+In Python, we can define a function inside another function. The inner function is able to access the variables of the outer function due to closure in Python. However, the inner function cannot alter the values of the variables of the outer function.
+
+```python
+# Python program to illustrate functions
+# can return another function
+
+def create_adder(x):
+    def adder(y):
+        return x + y
+
+    return adder
+
+add_15 = create_adder(15)
+
+print("The result is", add_15(10))
+
+# Returning different function
+def outer(x):
+    return x * 10
+
+def my_func():
+
+    # returning different function
+    return outer
+
+# storing the function in res
+res = my_func()
+
+print("\nThe result is:", res(10))
+```
+
+Output:
+
+```python
+The result is 25
+
+The result is: 100
+```
