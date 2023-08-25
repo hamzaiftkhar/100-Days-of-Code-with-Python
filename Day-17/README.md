@@ -79,3 +79,48 @@ We need to keep the following points in mind while calling functions:
 - There should be only one value for one parameter.
 - The passed keyword name should match with the actual keyword name.
 - In the case of calling a function containing non-keyword arguments, the order is important.
+
+### 2. Keyword Arguments
+
+Keyword arguments are those arguments that are passed by using the name (keyword) so that the values are assigned to the respective parameters. The order of the arguments doesn’t matter here.
+
+The idea is to allow the caller to specify the argument name with values so that the caller does not need to remember the order of parameters.
+
+We can provide arguments with key = value, this way the interpreter recognizes the arguments by the parameter name. Hence, the the order in which the arguments are passed does not matter.
+
+```python
+def name(first_name, middle_name, last_name):
+    print("Hello,", first_name, middle_name, last_name)
+
+name(middle_name = "Python", last_name = "Programming", first_name = "World")
+```
+
+Output:
+
+```python
+Hello, World Python Programming
+```
+
+Calling functions with keyword arguments is useful when the function has a lot of optional arguments. It helps in avoiding confusion as to which argument is being passed and what value is being assigned to which parameter.
+
+```python
+def student(firstname, lastname ='Mark', standard ='Fifth'):
+    print(firstname, lastname, 'studies in', standard, 'Semester')
+
+# 1 keyword argument
+student(firstname ='Hamza')
+
+# 2 keyword arguments
+student(firstname ='Hamza', standard ='Seventh')
+
+# 2 keyword arguments
+student(lastname ='Iftikhar', firstname ='Hamza')
+```
+
+Output:
+
+```python
+Hamza Mark studies in Fifth Semester  # 1 keyword argument
+Hamza Mark studies in Seventh Semester  # 2 keyword arguments
+Hamza Iftikhar studies in Fifth Semester  # 2 keyword arguments
+```
