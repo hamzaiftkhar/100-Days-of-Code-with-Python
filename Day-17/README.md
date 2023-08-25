@@ -157,3 +157,62 @@ My age is  Python
 ```
 
 **Note:** We should use the positional argument if we know the order of arguments or before using read the function you use and know the order of arguments to be passed over there otherwise you can get the wrong output as you can see in above-explained example for positional Argument.
+
+### 4. Arbitrary Arguments
+
+Arbitrary arguments are those arguments that are accepted by the function but are not defined. It means that a function can be called with any number of arguments.
+
+There are two types of arbitrary arguments:
+
+- Non-Keyword Variable-length arguments (*args)
+- Keyword variable-length arguments (**kwargs)
+
+#### Variable-length arguments (*args)
+
+Variable-length arguments are those arguments that are passed to the function with an asterisk (*). The arguments are passed as a tuple and these passed arguments make tuple inside the function with same name as the parameter excluding asterisk (*).
+
+```python
+# Python program to illustrate
+# *args for variable number of arguments
+def myFun(*argv):
+    for arg in argv:
+        print(arg)
+
+
+myFun('Hello', 'Welcome', 'to', '100-Days-of-Code-with-Python')
+```
+
+Output:
+
+```python
+Hello
+Welcome
+to
+100-Days-of-Code-with-Python
+```
+
+#### Keyword variable-length arguments (**kwargs)
+
+Keyword variable-length arguments are those arguments that are passed to the function with a double asterisk ** preceding the parameter name. The arguments are passed as a dictionary and these arguments make a dictionary inside the function with name same as the parameter excluding double asterisk **.
+
+```python
+# Python program to illustrate
+# *kwargs for variable number of keyword arguments
+
+
+def myFun(**kwargs):
+    for key, value in kwargs.items():
+        print("%s == %s" % (key, value))
+
+
+# Driver code
+myFun(first='100', mid='Days-of', last='Python Programming')
+```
+
+Output:
+
+```python
+first == 100
+mid == Days-of
+last == Python Programming
+```
