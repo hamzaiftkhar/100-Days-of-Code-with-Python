@@ -34,3 +34,48 @@ There are four types of arguments that can be passed to a function in Python:
 2. Keyword arguments (named arguments)
 3. Positional arguments
 4. Arbitrary arguments (variable-length arguments *args and **kwargs)
+
+### 1. Default Arguments
+
+Default arguments are those arguments that take default values if no argument value is passed during the function call. The default value is assigned by using the assignment (=) operator of the form keyword argument = value.
+
+Let’s understand this through a function student. The function student contains 3-arguments out of which 2 arguments are assigned with default values. So, the function student accepts one required argument (firstname), and rest two arguments are optional. 
+
+```python
+def student(firstname, lastname ='End', standard ='Fifth'):
+
+    print(firstname, lastname, 'studies in', standard, 'Standard')
+```
+
+In the above function, firstname is a required argument, and lastname and standard are optional arguments. If we call the function with only one argument, it will use the default value for the remaining arguments.
+
+```python
+def student(firstname, lastname ='Mark', standard ='Fifth'):
+	print(firstname, lastname, 'studies in', standard, 'Standard')
+
+# 1 positional argument
+student('John')
+
+# 3 positional arguments
+student('John', 'Gates', 'Seventh')
+
+# 2 positional arguments
+student('John', 'Gates')
+student('John', 'Seventh')
+```
+
+Output:
+
+```python
+John Mark studies in Fifth Standard      # 1 positional argument
+John Gates studies in Seventh Standard   # 3 positional arguments
+John Gates studies in Fifth Standard     # 2 positional arguments
+John Seventh studies in Fifth Standard   # 2 positional arguments
+```
+
+We need to keep the following points in mind while calling functions: 
+
+- In the case of passing the keyword arguments, the order of arguments is important.
+- There should be only one value for one parameter.
+- The passed keyword name should match with the actual keyword name.
+- In the case of calling a function containing non-keyword arguments, the order is important.
