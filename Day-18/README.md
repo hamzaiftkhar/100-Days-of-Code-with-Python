@@ -126,3 +126,43 @@ print('Value of i :', i)
 ```python
 Value of i : 18
 ```
+
+## While Loop with Else
+
+As discussed above, while loop executes the block until a condition is satisfied. When the condition becomes false, the statement immediately after the loop is executed. The else clause is only executed when your while condition becomes false. If you break out of the loop, or if an exception is raised, it won’t be executed.
+
+**Note:** The else block just after for/while is executed only when the loop is NOT terminated by a break statement.
+
+Example:
+
+```python
+# Python program to demonstrate
+# while-else loop
+
+i = 0
+while i < 4:
+    i += 1
+    print(i)
+else: # Executed because no break in for
+    print("No Break\n")
+
+i = 0
+while i < 4:
+    i += 1
+    print(i)
+    break
+else: # Not executed as there is a break
+    print("No Break")
+```
+
+- Output:
+
+```python
+1
+2
+3
+4
+No Break
+
+1
+```
