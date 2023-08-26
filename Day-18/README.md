@@ -224,3 +224,39 @@ Enter a number (-1 to quit): 4
 Enter a number (-1 to quit): 5
 Enter a number (-1 to quit): -1
 ```
+
+#### Explanation:
+
+- First, it asks the user to input a number. if the user enters -1 then the loop will not execute
+- User enter 6 and the body of the loop executes and again ask for input
+- Here user can input many times until he enters -1 to stop the loop
+- User can decide how many times he wants to enter input.
+
+## How to emulate do while loop in python?
+
+- Python doesn’t have do-while loop. But we can emulate this behavior using while loop.
+
+- To create a do while loop in Python, you need to modify the while loop a bit in order to get similar behavior to a do while loop.
+
+- The most common technique to emulate a do-while loop in Python is to use an infinite while loop with a break statement wrapped in an if statement that checks a given condition and breaks the iteration if that condition becomes true:
+
+```python
+while True:
+  number = int(input("Enter a positive number: "))
+  print(number)
+  if not number > 0:
+    break
+```
+
+- Output:
+
+```python
+Enter a positive number: 1
+1
+Enter a positive number: 2
+2
+Enter a positive number: 3
+3
+Enter a positive number: -4
+-4
+```
