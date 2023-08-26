@@ -35,3 +35,43 @@ Python Programming
 Python Programming
 Python Programming
 ```
+
+## While Loop with Control Statement
+
+Loop control statements change execution from its normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed. Python supports the following control statements.
+
+### Continue Statement
+
+- It returns the control to the beginning of the loop.
+
+Example:
+
+```python
+# Prints all letters except 'P' and 'o'
+i = 0
+a = 'Python Program'
+
+while i < len(a):
+    if a[i] == 'P' or a[i] == 'o':
+        i += 1
+        continue
+
+    print('Current Letter :', a[i])
+    i += 1
+```
+
+- Output:
+
+```python
+Current Letter : y
+Current Letter : t
+Current Letter : h
+Current Letter : n
+Current Letter :
+Current Letter : r
+Current Letter : a
+Current Letter : g
+Current Letter : r
+Current Letter : a
+Current Letter : m
+```
