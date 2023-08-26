@@ -102,3 +102,27 @@ while i < len(a):
 Current Letter : P
 Current Letter : y
 ```
+
+### Pass Statement
+
+- We use pass statement to write empty loops. Pass is also used for empty control statement, function and classes.
+
+Example:
+
+```python
+# An empty loop
+a = 'Python Programming'
+i = 0
+
+while i < len(a):
+    i += 1
+    pass
+
+print('Value of i :', i)
+```
+
+- Output:
+
+```python
+Value of i : 18
+```
