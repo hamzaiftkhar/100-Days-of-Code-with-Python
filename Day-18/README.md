@@ -196,3 +196,31 @@ While Loop Nested While Loop Nested While Loop Nested While Loop
 While Loop Nested While Loop Nested While Loop Nested While Loop
 While Loop Nested While Loop Nested While Loop Nested While Loop
 ```
+
+## Sentinel Controlled While Loop
+
+- Sentinel controlled while loop is used when we don't know the number of times to iterate beforehand but know the sentinel value which signifies the end of loop.
+
+Example:
+
+```python
+# Python program to illustrate
+# sentinel controlled while loop
+
+a = int(input('Enter a number (-1 to quit): '))
+
+while a != -1:
+    a = int(input('Enter a number (-1 to quit): '))
+
+```
+
+- Output:
+
+```python
+Enter a number (-1 to quit): 1
+Enter a number (-1 to quit): 2
+Enter a number (-1 to quit): 3
+Enter a number (-1 to quit): 4
+Enter a number (-1 to quit): 5
+Enter a number (-1 to quit): -1
+```
