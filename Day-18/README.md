@@ -166,3 +166,33 @@ No Break
 
 1
 ```
+
+## Nested While Loop
+
+- We can have a while loop inside another while loop. This is called nested while loop.
+
+Example:
+
+```python
+# Python program to illustrate
+# nested while loops
+
+i = 1
+
+while i <= 3:
+    print("While Loop", end=' ')
+    j = 1
+    while j <= 3:
+        print("Nested While Loop", end=' ')
+        j = j + 1
+    i = i + 1
+    print()
+```
+
+- Output:
+
+```python
+While Loop Nested While Loop Nested While Loop Nested While Loop
+While Loop Nested While Loop Nested While Loop Nested While Loop
+While Loop Nested While Loop Nested While Loop Nested While Loop
+```
