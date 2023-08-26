@@ -75,3 +75,30 @@ Current Letter : r
 Current Letter : a
 Current Letter : m
 ```
+
+### Break Statement
+
+- It brings control out of the loop.
+
+Example:
+
+```python
+# Prints all letters except 't' and 'o'
+i = 0
+a = 'Python Program'
+
+while i < len(a):
+    if a[i] == 't' or a[i] == 'o':
+        i += 1
+        break
+
+    print('Current Letter :', a[i])
+    i += 1
+```
+
+- Output:
+
+```python
+Current Letter : P
+Current Letter : y
+```
