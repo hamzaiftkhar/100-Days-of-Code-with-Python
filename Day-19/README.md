@@ -223,3 +223,25 @@ Output
 3
 No Break
 ```
+
+## Python For Loop with Zip()
+
+This code uses the zip() function to iterate over two lists (fruits and colors) in parallel. The for loop assigns the corresponding elements of both lists to the variables fruit and color in each iteration. Inside the loop, the print() function is used to display the message “is” between the fruit and color values. The output will display each fruit from the list of fruits along with its corresponding color from the colours list.
+
+#### Example: Python for loop with zip()
+
+```python
+fruits = ["apple", "banana", "cherry"]
+colors = ["red", "yellow", "green"]
+
+for fruit, color in zip(fruits, colors):
+    print(fruit, "is", color)
+```
+
+Output
+
+```python
+apple is red
+banana is yellow
+cherry is green
+```
