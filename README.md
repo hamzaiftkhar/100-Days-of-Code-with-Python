@@ -44,3 +44,5 @@ We will be covering the topics day by day. Each day you will be learning new con
 #### [Day-17](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-17) - Function Arguments and Return Statements
 
 #### [Day-18](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-18) - Loops in Python - While Loop
+
+#### [Day-19](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-19) - FOR Loops in Python Programming
