@@ -245,3 +245,34 @@ apple is red
 banana is yellow
 cherry is green
 ```
+
+## Nested for loop in Python
+
+In Python, we can have a for loop inside another for loop. This is called nested for loop.
+
+In nested for loop, for loop is placed inside the body of another for loop.
+
+```python
+for val in sequence:
+    for val in sequence:
+        Body of inner for
+    Body of outer for
+```
+
+#### Example: Python nested for loop
+
+```python
+for i in range(1, 5):
+    for j in range(i):
+        print(i, end=' ')
+    print()
+```
+
+Output
+
+```python
+1
+2 2
+3 3 3
+4 4 4 4
+```
