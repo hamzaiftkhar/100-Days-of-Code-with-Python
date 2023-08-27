@@ -192,3 +192,34 @@ Output
 ```python
 #all characters will be pass and no output will be generated
 ```
+
+## Else with Python For Loop
+
+Python supports having an else statement associated with a loop statement.
+
+If the else statement is used with a for loop, the else statement is executed when the loop has exhausted iterating the list.
+
+If the else statement is used with a while loop, the else statement is executed when the condition becomes false.
+
+The following example illustrates the combination of an else statement with a for statement that searches for prime numbers from 10 through 20.
+
+#### Example: Python else statement with for loop
+
+```python
+# Python program to demonstrate
+# for-else loop
+
+for i in range(1, 4):
+    print(i)
+else: # Executed because no break in for
+    print("No Break\n")
+```
+
+Output
+
+```python
+1
+2
+3
+No Break
+```
