@@ -103,3 +103,92 @@ for k in range(4,9):
 7
 8
 ```
+
+## For loop control statements
+
+Loop control statements change execution from their normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed. Python supports the following control statements.
+
+### 1. Continue Statement
+
+It returns the control to the beginning of the loop.
+
+```python
+for val in sequence:
+    if condition:
+        continue
+    Body of for
+```
+
+#### Example: Python continue statement
+
+```python
+for val in "Python":
+    if val == "i":
+        continue
+    print(val)
+```
+
+Output
+
+```python
+P
+y
+t
+h
+o
+n
+```
+
+### 2. Break Statement
+
+It brings control out of the loop.
+
+```python
+for val in sequence:
+    if condition:
+        break
+    Body of for
+```
+
+#### Example: Python break statement
+
+```python
+for letter in 'Python':     # First Example
+
+    # break the loop as soon it sees 't'
+    # or 't'
+    if letter == 'h' or letter == 't':
+        break
+
+print('Current Letter :', letter)
+```
+
+Output
+
+```python
+Current Letter : t
+```
+
+### 3. Pass Statement
+
+We use pass statement to write empty loops. Pass is also used for empty control statement, function and classes.
+
+```python
+for val in sequence:
+    pass
+```
+
+#### Example: Python pass statement
+
+```python
+
+sequence = {'p', 'a', 's', 's'}
+for val in sequence:
+    pass
+```
+
+Output
+
+```python
+#all characters will be pass and no output will be generated
+```
