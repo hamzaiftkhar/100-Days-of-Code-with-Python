@@ -58,3 +58,59 @@ Recursion Example Results
 - Recursion can be less efficient than iterative solutions in terms of memory and performance.
 - Recursive functions can be more challenging to debug and understand than iterative solutions.
 - Recursion can lead to stack overflow errors if the recursion depth is too high.
+
+## Types of Recursion:
+
+1. **Direct recursion:** When a function is called within itself directly it is called direct recursion. This can be further categorised into four types: 
+
+- Tail recursion,  
+- Head recursion,  
+- Tree recursion and 
+- Nested recursion.
+
+2. **Indirect recursion:** Indirect recursion occurs when a function calls another function that eventually calls the original function and it forms a cycle.
+
+## 1. Direct Recursion:
+
+- ### Tail Recursion:
+
+ If a recursive function calling itself and that recursive call is the last statement in the function then it’s known as Tail Recursion. After that call the recursive function performs nothing. The function has to process or perform any operation at the time of calling and it does nothing at returning time.
+
+```python
+def tailRecursion(n):
+    if n == 0:
+        return
+    else:
+        print(n)
+        tailRecursion(n-1)
+```
+
+- Time Complexity For Tail Recursion : **O(n)**
+- Space Complexity For Tail Recursion : **O(n)**
+
+- ### Head Recursion:
+
+ If a recursive function calling itself and that recursive call is the first statement in the function then it’s known as Head Recursion. There’s no statement, no operation before the call. The function doesn’t have to process or perform any operation at the time of calling and all operations are done at returning time.
+
+```python
+# Python program showing Head Recursion
+# Recursive function
+def fun(n):
+
+    if (n > 0):
+
+        # First statement in the function
+        fun(n - 1)
+
+        print(n,end=" ")
+
+# Driver code
+x = 3
+fun(x)
+
+
+# this code is contributed by shivanisinghss2110
+```
+
+- Time Complexity For Tail Recursion : **O(n)**
+- Space Complexity For Tail Recursion : **O(n)**
