@@ -177,3 +177,33 @@ Output:
 
 - Time Complexity For Nested Recursion: **O (2^ (n/3))**
 - Space Complexity For Nested Recursion: **O(n^2)**
+
+## 2. Indirect Recursion:
+
+Indirect recursion occurs when a function calls another function that eventually calls the original function and it forms a cycle.
+
+```python
+# Python program to show Indirect Recursion
+def funA(n):
+    if (n > 0):
+        print("", n, end='')
+
+        # Fun(A) is calling fun(B)
+        funB(n - 1)
+
+def funB( n):
+    if (n > 1):
+        print("", n, end='')
+
+        # Fun(B) is calling fun(A)
+        funA(n // 2)
+
+# Driver code
+funA(20)
+```
+
+Output:
+
+```python
+20 19 9 8 4 3 1
+```
