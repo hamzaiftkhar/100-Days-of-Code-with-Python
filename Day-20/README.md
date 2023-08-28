@@ -107,10 +107,73 @@ def fun(n):
 # Driver code
 x = 3
 fun(x)
-
-
-# this code is contributed by shivanisinghss2110
 ```
 
 - Time Complexity For Tail Recursion : **O(n)**
 - Space Complexity For Tail Recursion : **O(n)**
+
+- ### Tree Recursion:
+
+ To understand Tree Recursion let’s first understand Linear Recursion. If a recursive function calling itself for one time then it’s known as Linear Recursion. Otherwise if a recursive function calling itself for more than one time then it’s known as Tree Recursion.
+
+```python
+# Python program showing Tree Recursion
+# Recursive function
+# C++ program to show Tree Recursion
+# Recursive function
+def fun(n):
+
+    if (n > 0):
+
+        print(n, end=" ")
+
+        # Calling once
+        fun(n - 1)
+
+        # Calling twice
+        fun(n - 1)
+
+# Driver code
+fun(3)
+```
+
+Output:
+```python
+3 2 1 1 2 1 1
+```
+
+- Time Complexity For Tree Recursion: **O(2^n)**
+- Space Complexity For Tree Recursion: **O(n)**
+
+- ### Nested Recursion:
+
+In this recursion, a recursive function will pass the parameter as a recursive call. That means “recursion inside recursion”. Let see the example to understand this recursion.
+
+```python
+
+# Python program showing Nested Recursion
+# Recursive function
+# Python program to show Nested Recursion
+def fun(n):
+
+    if (n > 100):
+        return n - 10
+
+    # A recursive function passing parameter
+    # as a recursive call or recursion inside
+    # the recursion
+    return fun(fun(n + 11))
+
+# Driver code
+r = fun(95)
+print("", r)
+```
+
+Output:
+
+```python
+91
+```
+
+- Time Complexity For Nested Recursion: **O (2^ (n/3))**
+- Space Complexity For Nested Recursion: **O(n^2)**
