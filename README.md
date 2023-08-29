@@ -48,3 +48,5 @@ We will be covering the topics day by day. Each day you will be learning new con
 #### [Day-19](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-19) - FOR Loops in Python Programming
 
 #### [Day-20](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-20) - Recursion in Python
+
+#### [Day-21](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-21) - Week-3 Review and Our Third Challenge Exercise
