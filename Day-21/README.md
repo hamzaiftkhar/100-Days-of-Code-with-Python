@@ -43,3 +43,21 @@ Topics we have overed throughout the week-3 are:
 - Advantages and Disadvantages of Recursion
 - Types of Recursion
 - Applications of Recursion
+
+## Our Third Challenge Exercise
+
+### Question-1:
+
+Write a program to print the following start pattern using the for loop?
+
+```
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * 
+* * * 
+* * 
+*
+```
