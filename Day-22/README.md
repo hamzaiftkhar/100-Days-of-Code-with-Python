@@ -16,7 +16,7 @@ Write a program to print the following star pattern using the for loop?
 *
 ```
 
-[Solution Question-01]()
+[Solution Question-01](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-22/Question-1.py)
 
 ### Question-2:
 
@@ -30,7 +30,7 @@ Write a program to print the following star pattern using the for loop?
 *
 ```
 
-[Solution Question-02]()
+[Solution Question-02](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-22/Question-2.py)
 
 ### Question-3:
 
@@ -48,7 +48,7 @@ Output:
 [10, 12, 14, 16, 18, 20, 22, 24, 26, 28]
 ```
 
-[Solution Question-03]()
+[Solution Question-03](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-22/Question-3.py)
 
 ### Question-4:
 
@@ -66,7 +66,7 @@ Input: 10
 Output: 0 1 1 2 3 5 8 13 21 34
 ```
 
-[Solution Question-04]()
+[Solution Question-04](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-22/Question-4.py)
 
 ### Question-5:
 
@@ -82,4 +82,4 @@ Input: 123456789
 Output: 987654321
 ```
 
-[Solution Question-05]()
+[Solution Question-05](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-22/Question-5.py)
