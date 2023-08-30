@@ -83,3 +83,17 @@ Output: 987654321
 ```
 
 [Solution Question-05](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-22/Question-5.py)
+
+## Additional Resources:
+
+ [Function Problems in Python](https://www.w3resource.com/python-exercises/python-functions-exercises.php)
+
+ [Python Practice Question and Solution](https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/)
+
+ [Python Loop Examples](https://pythonistaplanet.com/python-for-loop-examples/)
+
+ [Python Recursion Problem with examples](https://pythonmania.org/functions/python-recursion-practice-problems-with-solutions/)
+
+ [Python if else, for loop, and range() Exercises with Solutions](https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/)
+
+ [Python String Exercise](https://www.w3schools.com/python/python_strings_exercises.asp)
