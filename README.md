@@ -52,3 +52,5 @@ We will be covering the topics day by day. Each day you will be learning new con
 #### [Day-21](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-21) - Week-3 Review and Our Third Challenge Exercise
 
 #### [Day-22](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-22) - Third Exercise Solution and Additional Resources
+
+#### [Day-23](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-23) - Introduction to Lists in Python Programming
