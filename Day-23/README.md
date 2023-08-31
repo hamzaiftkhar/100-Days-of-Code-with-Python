@@ -125,3 +125,124 @@ Output
 0
 3
 ```
+
+## Adding Elements to a Python List
+
+Elements can be added to the List by using the built-in append() function. Only one element at a time can be added to the list by using the append() method, for the addition of multiple elements with the append() method, loops are used. Tuples can also be added to the list with the use of the append method because tuples are immutable. Unlike Sets, Lists can also be added to the existing list with the use of the append() method.
+
+```python
+# Python program to demonstrate
+# Addition of elements in a List
+
+# Creating a List
+List = []
+print("Initial blank List: ")
+print(List)
+
+# Addition of Elements
+# in the List
+List.append(1)
+List.append(2)
+List.append(4)
+print("\nList after Addition of Three elements: ")
+print(List)
+
+# Adding elements to the List
+# using Iterator
+for i in range(1, 4):
+    List.append(i)
+print("\nList after Addition of elements from 1-3: ")
+print(List)
+```
+
+Output
+
+```python
+Initial blank List: 
+[]
+List after Addition of Three elements: 
+[1, 2, 4]
+
+List after Addition of elements from 1-3: 
+[1, 2, 4, 1, 2, 3]
+```
+
+Complexities for Adding elements in a Lists(append() method):
+
+- Time Complexity: **O(1).**
+- Space Complexity: **O(1).**
+
+### Method 2: Using insert() method
+
+append() method only works for the addition of elements at the end of the List, for the addition of elements at the desired position, insert() method is used. Unlike append() which takes only one argument, the insert() method requires two arguments(position, value). 
+
+```python
+# Python program to demonstrate
+# Addition of elements in a List
+
+# Creating a List
+List = [1,2,3,4]
+print("Initial List: ")
+print(List)
+
+# Addition of Element at
+# specific Position
+# (using Insert Method)
+List.insert(3, 12)
+List.insert(0, 'Python')
+print("\nList after performing Insert Operation: ")
+print(List)
+```
+
+Output
+
+```python
+Initial List: 
+[1, 2, 3, 4]
+
+List after performing Insert Operation: 
+['Python', 1, 2, 3, 12, 4]
+```
+
+Complexities for Adding elements in a Lists(insert() method):
+
+- Time Complexity: **O(n).**
+- Space Complexity: **O(1).**
+
+### Method 3: Using extend() method
+
+Other than append() and insert() methods, there’s one more method for the Addition of elements, extend(), this method is used to add multiple elements at the same time at the end of the list.
+
+Note – append() and extend() methods can only add elements at the end.
+
+```python
+# Python program to demonstrate
+# Addition of elements in a List
+
+# Creating a List
+List = [1, 2, 3, 4]
+print("Initial List: ")
+print(List)
+
+# Addition of multiple elements
+# to the List at the end
+# (using Extend Method)
+List.extend([8, 'Python', 'Programming'])
+print("\nList after performing Extend Operation: ")
+print(List)
+```
+
+Output
+
+```python
+Initial List: 
+[1, 2, 3, 4]
+
+List after performing Extend Operation: 
+[1, 2, 3, 4, 8, 'Python', 'Programming']
+```
+
+Complexities for Adding elements in a Lists(extend() method):
+
+- Time Complexity: **O(n).**
+- Space Complexity: **O(1).**
