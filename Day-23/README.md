@@ -15,3 +15,33 @@ Syntax
 ```python
 list_name = [item_1, item_2, item_3]
 ```
+
+## Creating a List
+
+Lists are created using square brackets [ ] with commas separating items.
+
+The list contains different data types like integer, float, string, etc.
+
+```python
+# empty list
+my_list = []
+print(my_list)
+
+# list of integers
+my_list = [1, 2, 3]
+print(my_list)
+
+# list with mixed datatypes
+my_list = [1, "Hello", 3.4]
+print(my_list)
+```
+
+Output
+```python
+[]
+[1, 2, 3]
+[1, 'Hello', 3.4]
+```
+
+- Time Complexity: **O(1).**
+- Space Complexity: **O(n).**
