@@ -45,3 +45,62 @@ Output
 
 - Time Complexity: **O(1).**
 - Space Complexity: **O(n).**
+
+## Accessing Elements in a List
+
+There are various ways in which we can access the elements of a list.
+
+In order to access the list items refer to the index number. Use the index operator [ ] to access an item in a list. The index must be an integer. Nested lists are accessed using nested indexing.
+
+- **Positive Indexing:** Starts from 0 from the left side of the list.
+
+```python
+# Python program to demonstrate
+# accessing of element from list
+
+# Creating a List with
+# the use of multiple values
+List = ["100-Days", "of", "Code"]
+
+# accessing a element from the
+# list using index number
+print("Accessing a element from the list")
+print(List[0])
+print(List[2])
+```
+
+Output
+```python
+Accessing a element from the list    
+100-Days    #print(List[0])
+Code        #print(List[2])
+```
+
+- **Negative Indexing:** In Python, negative sequence indexes represent positions from the end of the array. Instead of having to compute the offset as in List[len(List)-3], it is enough to just write List[-3]. Negative indexing means beginning from the end, -1 refers to the last item, -2 refers to the second-last item, etc.
+
+```python
+List = [1, 2, '100-Days', 4, 'of', 6, 'Code']
+
+# accessing an element using
+# negative indexing
+print("Accessing element using negative indexing")
+
+# print the last element of list
+print(List[-1])
+
+# print the third last element of list
+print(List[-3])
+```
+
+Output
+
+```python
+Accessing element using negative indexing
+Code    #print(List[-1])
+of      #print(List[-3])
+```
+
+Complexities for Accessing elements in a Lists:
+
+- Time Complexity: **O(1).**
+- Space Complexity: **O(1).**
