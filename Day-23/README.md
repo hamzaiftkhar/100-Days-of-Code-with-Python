@@ -104,3 +104,24 @@ Complexities for Accessing elements in a Lists:
 
 - Time Complexity: **O(1).**
 - Space Complexity: **O(1).**
+
+## Getting the size of Python list
+
+To get the size of a Python list, we can use the built-in function len(). It returns the number of elements in a list.
+
+```python
+# Creating a List
+List1 = []
+print(len(List1))
+
+# Creating a List of numbers
+List2 = [10, 20, 14]
+print(len(List2))
+```
+
+Output
+
+```python
+0
+3
+```
