@@ -101,3 +101,30 @@ Enter the list items : a b c d e
 [1, 2, 3, 4, 5]
 ['a', 'b', 'c', 'd', 'e']
 ```
+
+### Getting list as input from user using exception handling:
+
+```python
+# try block to handle the exception
+try:
+    my_list = []
+
+    while True:
+        my_list.append(int(input()))
+
+# if the input is not-integer, just print the list
+except:
+    print(my_list)
+```
+
+Output:
+
+```python
+1
+2
+3
+4
+5
+a    #Non-integer input exception occur here
+[1, 2, 3, 4, 5]
+```
