@@ -6,13 +6,13 @@ List comprehension is an elegant way to define and create lists based on existin
 
 Remember, every list comprehension can be rewritten in for loop, but every for loop can’t be rewritten in the form of list comprehension.
 
-### Syntax:
+### Syntax
 
 ```python
 new_list = [expression for_loop_one_or_more conditions]
 ```
 
-### Examples:
+### Examples
 
 ```python
 # Python program to demonstrate list comprehension in Python
@@ -73,10 +73,10 @@ The input list is :
 [1, 2, 3, 4, 5]
 ```
 
-- Time Complexity: O(n), where n is the length of the list 
-- Auxiliary Space: O(n) additional space of size n is created where n is the number of elements in the list 
+- Time Complexity: O(n), where n is the length of the list
+- Auxiliary Space: O(n) additional space of size n is created where n is the number of elements in the list
 
-### Getting list as input from user using list comprehension:
+### Getting list as input from user using list comprehension
 
 ```python
 # For list of integers
@@ -102,7 +102,7 @@ Enter the list items : a b c d e
 ['a', 'b', 'c', 'd', 'e']
 ```
 
-### Getting list as input from user using exception handling:
+### Getting list as input from user using exception handling
 
 ```python
 # try block to handle the exception
@@ -127,4 +127,66 @@ Output:
 5
 a    #Non-integer input exception occur here
 [1, 2, 3, 4, 5]
+```
+
+**Note**: For more concept about Exception Handling in Python, review our Exception Handling lecture.
+
+## List Sorting in Python
+
+- #### Sort list Alphanumerically
+
+```python
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort()
+print(thislist)
+```
+
+Output:
+
+```python
+['banana', 'kiwi', 'mango', 'orange', 'pineapple']
+```
+
+- #### Sort List in Descending Order
+
+```python
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort(reverse = True)
+print(thislist)
+```
+
+Output:
+
+```python
+['pineapple', 'orange', 'mango', 'kiwi', 'banana']
+```
+
+- #### Case Insensitive Sort
+
+By default the sort() method is case sensitive, resulting in all capital letters being sorted before lower case letters:
+
+```python
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.sort()
+print(thislist)
+```
+
+Output:
+
+```python
+['Kiwi', 'Orange', 'banana', 'cherry']
+```
+
+**If you want a case-insensitive sort function, use str.lower as a key function:**
+
+```python
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.sort(key = str.lower)
+print(thislist)
+```
+
+Output:
+
+```python
+['banana', 'cherry', 'Kiwi', 'Orange']
 ```
