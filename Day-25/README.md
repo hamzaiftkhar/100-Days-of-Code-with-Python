@@ -75,3 +75,29 @@ The input list is :
 
 - Time Complexity: O(n), where n is the length of the list 
 - Auxiliary Space: O(n) additional space of size n is created where n is the number of elements in the list 
+
+### Getting list as input from user using list comprehension:
+
+```python
+# For list of integers
+lst1 = []
+
+# For list of strings/chars
+lst2 = []
+
+lst1 = [int(item) for item in input("Enter the list items : ").split()]
+
+lst2 = [item for item in input("Enter the list items : ").split()]
+
+print(lst1)
+print(lst2)
+```
+
+Output:
+
+```python
+Enter the list items : 1 2 3 4 5
+Enter the list items : a b c d e
+[1, 2, 3, 4, 5]
+['a', 'b', 'c', 'd', 'e']
+```
