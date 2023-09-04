@@ -66,7 +66,7 @@ Output:
 ('Code', 34, True, 40, 'Python')
 ```
 
-- ### Different tuples of tuples
+- ### Different types of tuples
 
 A tuple can contain different data types in single tuple:
 
