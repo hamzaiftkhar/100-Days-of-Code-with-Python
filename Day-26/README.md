@@ -155,3 +155,35 @@ Output:
 ```python
 ('cartoon', [8, 4, 6], (1, 2, 3))
 ```
+
+## Create a Python Tuple With one Element
+
+To create a tuple with only one item, you have to add a comma after the item, otherwise Python will not recognize it as a tuple.
+
+```python
+var1 = ("Hello") # string
+var2 = ("Hello",) # tuple
+
+print(type(var1))
+print(type(var2))
+```
+
+Output:
+
+```python
+<class 'str'>
+<class 'tuple'>
+```
+
+Python 3.11 provides us with another way to create a tuple.
+
+```python
+values : tuple[int | str, ...] = (1,2,4,"Python")
+print(values)
+```
+
+Output:
+
+```python
+(1, 2, 4, 'Python')
+```
