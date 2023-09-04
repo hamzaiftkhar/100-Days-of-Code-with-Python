@@ -137,3 +137,21 @@ Value in Var[-1] =  Code
 Value in Var[-2] =  -Days-of-
 Value in Var[-3] =  100
 ```
+
+## Nested Tuples in Python
+
+A tuple can contain another tuple as an element. This is called nested tuple.
+
+A tuple can have any number of items and they may be of different types (integer, float, list, string, etc.)
+
+```python
+# nested tuple
+my_tuple = ("cartoon", [8, 4, 6], (1, 2, 3))
+print(my_tuple)
+```
+
+Output:
+
+```python
+('cartoon', [8, 4, 6], (1, 2, 3))
+```
