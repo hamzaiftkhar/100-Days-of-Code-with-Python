@@ -93,3 +93,47 @@ Output:
 (1, 2, 3)
 (1, 'Hello', 3.4)
 ```
+
+## Accessing values in Python Tuples
+
+Tuples in Python provide two ways by which we can access the elements of a tuple.
+
+- ### Python Access Tuple using a Positive Index
+
+Using square brackets we can get the values from tuples in Python.
+
+```python
+var = ("100", "-Days-of-", "Code")
+
+print("Value in Var[0] = ", var[0])
+print("Value in Var[1] = ", var[1])
+print("Value in Var[2] = ", var[2])
+```
+
+Output:
+
+```python
+Value in Var[0] =  100
+Value in Var[1] =  -Days-of-
+Value in Var[2] =  Code
+```
+
+- ### Python Access Tuple using a Negative Index
+
+In the above methods, we use the positive index to access the value in Python, and here we will use the negative index within [].
+
+```python
+var = ("100", "-Days-of-", "Code")
+
+print("Value in Var[-1] = ", var[-1])
+print("Value in Var[-2] = ", var[-2])
+print("Value in Var[-3] = ", var[-3])
+```
+
+Output:
+
+```python
+Value in Var[-1] =  Code
+Value in Var[-2] =  -Days-of-
+Value in Var[-3] =  100
+```
