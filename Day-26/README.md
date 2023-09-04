@@ -187,3 +187,32 @@ Output:
 ```python
 (1, 2, 4, 'Python')
 ```
+
+## Tuple Constructor in Python
+
+It is also possible to use the tuple() constructor to make a tuple.
+
+```python
+var = tuple(("100", "-Days-of-", "Code"))
+print(var)
+```
+
+Output:
+
+```python
+('100', '-Days-of-', 'Code')
+```
+
+Example:
+
+```python
+thistuple = tuple(("apple", "banana", "cherry")) 
+# note the double round-brackets
+print(thistuple)
+```
+
+Output:
+
+```python
+('apple', 'banana', 'cherry')
+```
