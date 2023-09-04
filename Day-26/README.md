@@ -34,3 +34,62 @@ Output:
 ```python
 ('100', 'Days-of', 'Code')
 ```
+
+## Tuples Items - Data Types
+
+Tuples items can be of any data type: 
+
+```python
+tuple1 = ("apple", "banana", "cherry")
+tuple2 = (1, 5, 7, 9, 3)
+tuple3 = (True, False, False)
+```
+
+Output:
+
+```python
+('apple', 'banana', 'cherry')
+(1, 5, 7, 9, 3)
+(True, False, False)
+```
+
+A single tuple can contain different data types:
+
+```python
+tuple1 = ("Code", 34, True, 40, "Python")
+print(tuple1)
+```
+
+Output:
+
+```python
+('Code', 34, True, 40, 'Python')
+```
+
+- ### Different tuples of tuples
+
+A tuple can contain different data types in single tuple:
+
+```python
+# Different types of tuples
+
+# Empty tuple
+my_tuple = ()
+print(my_tuple)
+
+# Tuple having integers
+my_tuple = (1, 2, 3)
+print(my_tuple)
+
+# tuple with mixed datatypes
+my_tuple = (1, "Hello", 3.4)
+print(my_tuple)
+```
+
+Output:
+
+```python
+()
+(1, 2, 3)
+(1, 'Hello', 3.4)
+```
