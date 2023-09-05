@@ -58,6 +58,7 @@ Tuples are unchangeable, so you cannot remove items from it, but you can use the
 x = ("apple", "banana", "cherry")
 y = list(x)
 y.remove("apple")
+y.pop(1)
 x = tuple(y)
 
 print(x)
@@ -66,10 +67,10 @@ print(x)
 Output:
 
 ```python
-('banana', 'cherry')
+('cherry',)
 ```
 
-So in this way we can remove items in a tuple.
+So in this way we can remove items in a tuple and pop them as well.
 
 Or you can delete the tuple completely:
 
