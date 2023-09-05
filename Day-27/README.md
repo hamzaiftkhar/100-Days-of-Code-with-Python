@@ -150,3 +150,48 @@ apple
 banana
 cherry
 ```
+
+## Tuples methods
+
+Python has two built-in methods that you can use on tuples.
+
+### 1. count()
+
+The count() method returns the number of times a specified value appears in the tuple.
+
+```python
+thistuple = (1, 4, 6, 8, 4, 9, 4)
+x = thistuple.count(4)
+print(x)
+```
+
+Output:
+
+```python
+3
+```
+
+### 2. index()
+
+The index() method finds the first occurrence of the specified value.
+
+The index() method raises an exception if the value is not found.
+
+```python
+thistuple = (1, 4, 6, 8, 4, 9, 4)
+x = thistuple.index(4)
+print(x)
+```
+
+Output:
+
+```python
+1
+```
+
+Additional methods we can use on tuples are:
+
+- len()
+- max()
+- min()
+- sum()
