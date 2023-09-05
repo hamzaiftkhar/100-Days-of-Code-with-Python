@@ -97,3 +97,20 @@ Output:
 ```python
 ('a', 'b', 'c', 1, 2, 3)
 ```
+
+### 5. Multiply Tuples
+
+If you want to multiply the content of a tuple a given number of times, you can use the * operator:
+
+```python
+fruits = ("apple", "banana", "cherry")
+mytuple = fruits * 2
+
+print(mytuple)
+```
+
+Output:
+
+```python
+('apple', 'banana', 'cherry', 'apple', 'banana', 'cherry')
+```
