@@ -114,3 +114,39 @@ Output:
 ```python
 ('apple', 'banana', 'cherry', 'apple', 'banana', 'cherry')
 ```
+
+## Loop Through a Tuple
+
+You can loop through the tuple items by using a for loop and while loop.
+
+```python
+thistuple = ("apple", "banana", "cherry")
+for x in thistuple:
+  print(x)
+```
+
+Output:
+
+```python
+apple
+banana
+cherry
+```
+
+Now looping in tuple using while loop.
+
+```python
+thistuple = ("apple", "banana", "cherry")
+i = 0
+while i < len(thistuple):
+  print(thistuple[i])
+  i = i + 1
+```
+
+Output:
+
+```python
+apple
+banana
+cherry
+```
