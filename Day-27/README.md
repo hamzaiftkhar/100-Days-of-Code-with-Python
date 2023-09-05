@@ -196,3 +196,73 @@ Additional methods we can use on tuples are:
 - max()
 - min()
 - sum()
+
+## Unpacking a Tuple
+
+When we create a tuple, we normally assign values to it. This is called **"packing"** a tuple:
+
+```python
+fruits = ("apple", "banana", "cherry")
+```
+
+But, in Python, we are also allowed to extract the values back into variables. This is called **"unpacking"**:
+
+```python
+fruits = ("apple", "banana", "cherry")
+
+(green, yellow, red) = fruits
+
+print(green)
+print(yellow)
+print(red)
+```
+
+Output:
+
+```python
+apple
+banana
+cherry
+```
+
+- ###  Using Asterisk*
+
+If the number of variables is less than the number of values, you can add an * to the variable name and the values will be assigned to the variable as a list:
+
+```python
+fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+
+(green, yellow, *red) = fruits
+
+print(green)
+print(yellow)
+print(red)
+```
+
+Output:
+
+```python
+apple
+banana
+['cherry', 'strawberry', 'raspberry']
+```
+
+If the asterisk is added to another variable name than the last, Python will assign values to the variable until the number of values left matches the number of variables left.
+
+```python
+fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+
+(green, *tropic, red) = fruits
+
+print(green)
+print(tropic)
+print(red)
+```
+
+Output:
+
+```python
+apple
+['banana', 'cherry', 'strawberry']
+raspberry
+```
