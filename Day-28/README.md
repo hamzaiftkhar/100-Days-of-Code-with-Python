@@ -8,3 +8,9 @@ Topics we have covered so far in this week-4 are as follows:
 - Creating a List
 - Accessing Elements in a List
 - Adding and Removing Elements in a List
+
+#### [Day-24](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-24) - Lists methods in Python
+
+- Python List Slicing
+- List Methods in Python
+
