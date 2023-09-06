@@ -1,1 +1,10 @@
 # Week-4 Review and Our Fourth Challenge Exercise
+
+Topics we have covered so far in this week-4 are as follows:
+
+#### [Day-23](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-23) - Introduction to Lists
+
+- What is a List?
+- Creating a List
+- Accessing Elements in a List
+- Adding and Removing Elements in a List
