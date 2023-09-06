@@ -29,3 +29,9 @@ Topics we have covered so far in this week-4 are as follows:
 - Nested Tuples in Python
 - Advantages of Tuple over List in Python
 
+#### [Day-27](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-27) - Operations on Tuples in Python
+
+- Manipulating Tuples
+- Loop Through a Tuple
+- Tuples methods
+- Unpacking a Tuple
