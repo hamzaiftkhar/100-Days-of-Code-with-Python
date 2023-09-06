@@ -2,7 +2,7 @@
 
 ## Week-3 Review
 
-Topics we have overed throughout the week-3 are:
+Topics we have covered throughout the week-3 are:
 
 #### [Day-16](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-16) - Functions in Python
 
