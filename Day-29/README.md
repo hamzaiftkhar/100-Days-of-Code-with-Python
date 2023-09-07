@@ -79,3 +79,18 @@ list2 = [(7, 8), (9, 10), (11, 12)]
 - The integers within each tuple will be non-negative.
 
 #### [Solution to Question 5]()
+
+
+## Additional Resources:
+
+- [Lists in Python Programming Language](https://www.geeksforgeeks.org/python-lists/)
+
+- [Tuples in Python Programming](https://www.geeksforgeeks.org/tuples-in-python/)
+
+- [Python Tuple Exercise](https://www.geeksforgeeks.org/python-tuple-exercise/)
+
+- [Python List Excrcise](https://www.geeksforgeeks.org/python-list-exercise/)
+
+- [Python Basic Exercise Solution](https://pythonistaplanet.com/python-programming-exercises-and-solutions/)
+
+- [Python Exercise and Solution for Beginners](https://pynative.com/python-basic-exercise-for-beginners/)
