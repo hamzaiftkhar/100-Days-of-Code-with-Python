@@ -39,7 +39,7 @@ Input: [("Amana", 28), ("Zenat", 30), ("Abhishek", 29), ("Nikhil", 21), ("B", "C
 Output: [('Amana', 28), ('Abhishek', 29), ('B', 'C'), ('Nikhil', 21), ('Zenat', 30)]
 ```
 
-- [Solution to Question 3]https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-29/Question-3.py)
+- [Solution to Question 3](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-29/Question-3.py)
 
 ## Question 4:
 
@@ -89,7 +89,7 @@ list2 = [(7, 8), (9, 10), (11, 12)]
 
 - [Python Tuple Exercise](https://www.geeksforgeeks.org/python-tuple-exercise/)
 
-- [Python List Excrcise](https://www.geeksforgeeks.org/python-list-exercise/)
+- [Python List Exercise](https://www.geeksforgeeks.org/python-list-exercise/)
 
 - [Python Basic Exercise Solution](https://pythonistaplanet.com/python-programming-exercises-and-solutions/)
 
