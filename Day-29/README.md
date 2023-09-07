@@ -11,7 +11,7 @@ The original list is : [[4, 1, 6], [7, 8], [4, 10, 8]]
 The reverse sorted Matrix is : [[6, 4, 1], [8, 7], [10, 8, 4]]
 ```
 
-- [Solution to Question 1]()
+- [Solution to Question 1](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-29/Question-1.py)
 
 ## Question 2:
 
@@ -26,7 +26,7 @@ Input : list = [2, 4, 10, 20, 5, 2, 20, 4]
 Output : list = [2, 4, 20]
 ```
 
-- [Solution to Question 2]()
+- [Solution to Question 2](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-29/Question-2.py)
 
 ## Question 3:
 
@@ -39,7 +39,7 @@ Input: [("Amana", 28), ("Zenat", 30), ("Abhishek", 29), ("Nikhil", 21), ("B", "C
 Output: [('Amana', 28), ('Abhishek', 29), ('B', 'C'), ('Nikhil', 21), ('Zenat', 30)]
 ```
 
-- [Solution to Question 3]()
+- [Solution to Question 3]https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-29/Question-3.py)
 
 ## Question 4:
 
@@ -52,7 +52,7 @@ Input: [[1,2,3], [4,5,6], [10,11,12], [7,8,9]]
 Output: [10, 11, 12]
 ```
 
-- [Solution to Question 4]()
+- [Solution to Question 4](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-29/Question-4.py)
 
 ## Question 5:
 
@@ -78,7 +78,7 @@ list2 = [(7, 8), (9, 10), (11, 12)]
 - The length of both lists will be the same.
 - The integers within each tuple will be non-negative.
 
-#### [Solution to Question 5]()
+#### [Solution to Question 5](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-29/Question-5.py)
 
 
 ## Additional Resources:
