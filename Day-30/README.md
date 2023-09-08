@@ -237,3 +237,25 @@ Dictionary =
 Data after deletion Dictionary=
 {'name': 'is', 3: 'Fun'}
 ```
+
+## Looping through a Dictionary
+
+We can loop through a dictionary by using a for loop. When looping through a dictionary, the return value are the keys of the dictionary, but there are methods to return the values as well.
+
+```python
+# Python program to loop through dictionary
+# Creating a Dictionary
+Dict = {1: 'Python', 'name': 'is', 3: 'Fun'}
+
+# Iterating through a Dictionary
+for Key, Value in Dict.items():
+    print(Key, Value)
+```
+
+Output:
+
+```python
+1 Python
+name is
+3 Fun
+```
