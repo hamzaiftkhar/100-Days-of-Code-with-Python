@@ -130,3 +130,53 @@ Adding a Nested Key:
 - Time complexity: **O(1)/O(n)**
 
 - Space complexity: **O(1)**
+
+## Accessing elements from a Dictionary
+
+In order to access the items of a dictionary refer to its key name.Key can be used inside square brackets.
+
+There is also a method called get() that will also help in acessing the element from a dictionary.
+
+```python
+# Python program to demonstrate
+# accessing a element from a Dictionary
+
+# Creating a Dictionary
+Dict = {1: 'Python', 'name': 'is', 3: 'Fun'}
+
+# accessing a element using key
+print("Accessing a element using key:")
+print(Dict['name'])
+
+# accessing a element using key
+print("Accessing a element using key:")
+print(Dict[1])
+```
+
+Output:
+
+```python
+Accessing a element using key:
+is
+
+Accessing a element using key:
+Python
+```
+
+Accessing element using get():
+
+```python
+# Creating a Dictionary
+Dict = {1: 'Python', 'name': 'is', 3: 'Fun'}
+
+# accessing a element using get() method
+print("Accessing a element using get:")
+print(Dict.get(3))
+```
+
+Output:
+
+```python
+Accessing a element using get:
+Fun
+```
