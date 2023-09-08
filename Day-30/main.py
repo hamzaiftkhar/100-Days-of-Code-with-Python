@@ -63,7 +63,7 @@ for key in thisdict:
 #        2018
 
 for key, value in thisdict.items():
-    print(key, " : "value)
+    print(key, " : ", value)
 
 #output: brand : Ford
 #        model : Mustang
