@@ -180,3 +180,26 @@ Output:
 Accessing a element using get:
 Fun
 ```
+
+- ### Acessing element of a nested dictionary
+
+In order to access the value of any key in nested dictionary, use indexing [] syntax.
+
+```python
+# Creating a Dictionary
+Dict = {'Dict1': {1: 'Python'},
+        'Dict2': {'Name': 'Program'}}
+
+# Accessing element using key
+print(Dict['Dict1'])
+print(Dict['Dict1'][1])
+print(Dict['Dict2']['Name'])
+```
+
+Output:
+
+```python
+{1: 'Python'}
+Python
+Program
+```
