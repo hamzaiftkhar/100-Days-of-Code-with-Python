@@ -203,3 +203,37 @@ Output:
 Python
 Program
 ```
+
+**Complexities for Accessing elements in a Dictionary:**
+
+- Time complexity: **O(1)**
+
+- Space complexity: **O(1)**
+
+## Removing Elements from Dictionary
+
+In Python Dictionary, deletion of keys can be done by using the del keyword. Using del keyword, specific values from a dictionary as well as whole dictionary can be deleted. Items in a Nested dictionary can also be deleted by using del keyword and providing specific nested key and particular key to be deleted from that nested Dictionary.
+
+```python
+# Python program to demonstrate
+# Deleting Elements using del Keyword
+
+# Creating a Dictionary
+Dict = {1: 'Python', 'name': 'is', 3: 'Fun'}
+
+print("Dictionary =")
+print(Dict)
+#Deleting some of the Dictionary data
+del(Dict[1])
+print("Data after deletion Dictionary=")
+print(Dict)
+```
+
+Output:
+
+```python
+Dictionary =
+{1: 'Python', 'name': 'is', 3: 'Fun'}
+Data after deletion Dictionary=
+{'name': 'is', 3: 'Fun'}
+```
