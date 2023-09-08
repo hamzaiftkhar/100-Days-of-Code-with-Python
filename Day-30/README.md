@@ -69,3 +69,64 @@ Dictionary with each item as a pair:
 - Time complexity: **O(len(dict))**
 
 - Space complexity: **O(n)**
+
+## Adding elements to a Dictionary
+
+In Python Dictionary, addition of elements can be done in multiple ways. One value at a time can be added to a Dictionary by defining value along with the key **e.g. Dict[Key] = ‘Value’**. Updating an existing value in a Dictionary can be done by using the built-in update() method. Nested key values can also be added to an existing Dictionary.
+
+**Note-** While adding a value, if the key value already exists, the value gets updated otherwise a new Key with the value is added to the Dictionary.
+
+```python
+# Creating an empty Dictionary
+Dict = {}
+print("Empty Dictionary: ")
+print(Dict)
+
+# Adding elements one at a time
+Dict[0] = 'Python'
+Dict[2] = 'Coding'
+Dict[3] = 1
+print("\nDictionary after adding 3 elements: ")
+print(Dict)
+
+# Adding set of values
+# to a single Key
+Dict['Value_set'] = 2, 3, 4
+print("\nDictionary after adding 3 elements: ")
+print(Dict)
+
+# Updating existing Key's Value
+Dict[2] = 'Welcome'
+print("\nUpdated key value: ")
+print(Dict)
+
+# Adding Nested Key value to Dictionary
+Dict[5] = {'Nested': {'1': 'Python', '2': 'Programming'}}
+print("\nAdding a Nested Key: ")
+print(Dict)
+```
+
+Output:
+
+```python
+Empty Dictionary: 
+{}
+
+Dictionary after adding 3 elements: 
+{0: 'Python', 2: 'Coding', 3: 1}
+
+Dictionary after adding 3 elements: 
+{0: 'Python', 2: 'Coding', 3: 1, 'Value_set': (2, 3, 4)}
+
+Updated key value: 
+{0: 'Python', 2: 'Welcome', 3: 1, 'Value_set': (2, 3, 4)}
+
+Adding a Nested Key: 
+{0: 'Python', 2: 'Welcome', 3: 1, 5: 'Value_set': (2, 3, 4) : {'Nested': {'1': 'Python', '2': 'Programming'}}}
+```
+
+**Complexities for Adding elements in a Dictionary:**
+
+- Time complexity: **O(1)/O(n)**
+
+- Space complexity: **O(1)**
