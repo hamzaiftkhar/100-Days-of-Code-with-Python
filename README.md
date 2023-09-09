@@ -68,3 +68,5 @@ We will be covering the topics day by day. Each day you will be learning new con
 #### [Day-29](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-29) - Fourth Exercise Solution and Additional Resources
 
 #### [Day-30](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-30) - Introduction to Dictionaries in Python
+
+#### [Day-31](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-31) - Dictionary methods in Python Programming Language
