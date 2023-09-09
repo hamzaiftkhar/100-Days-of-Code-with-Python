@@ -40,3 +40,37 @@ text = {1: "Python", 2: "Dictionaries", 3: "Methods"}
 
 print(text.get(2))
 # Output: Dictionaries
+
+# 5. items() - Returns a list containing a tuple for each key value pair
+# Python program to demonstrate working of
+# dictionary items()
+text = {1: "Python", 2: "Dictionaries", 3: "Methods"}
+
+print(text.items())
+# Output: dict_items([(1, 'Python'), (2, 'Dictionaries'), (3, 'Methods')])
+
+# 6. keys() - Returns a list containing the dictionary's keys
+# Python program to demonstrate working of
+# dictionary keys()
+text = {1: "Python", 2: "Dictionaries", 3: "Methods"}
+
+print(text.keys())
+# Output: dict_keys([1, 2, 3])
+
+# 7. pop() - Removes the element with the specified key
+# Python program to demonstrate working of
+# dictionary pop()
+text = {1: "Python", 2: "Dictionaries", 3: "Methods"}
+
+text.pop(2)
+print(text)
+# Output: {1: 'Python', 3: 'Methods'}
+
+# 8. popitem() - Removes the last inserted key-value pair
+# Python program to demonstrate working of
+# dictionary popitem()
+text = {1: "Python", 2: "Dictionaries", 3: "Methods"}
+
+text.popitem()
+print(text)
+# Output: {1: 'Python', 2: 'Dictionaries'}
