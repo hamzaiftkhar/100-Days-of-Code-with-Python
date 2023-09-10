@@ -233,3 +233,39 @@ Intial Set:
 Set after clearing all the elements:
 set()
 ```
+
+## Frozen Sets
+
+Frozen sets in Python are immutable objects that only support methods and operators that produce a result without affecting the frozen set or sets to which they are applied.
+
+While elements of a set can be modified at any time, elements of the frozen set remain the same after creation.
+
+Due to this, frozen sets can be used as keys in Dictionary or as elements of another set. But like sets, it is not ordered (the elements can be set at any index).
+
+Frozen sets can be created by using the function frozenset().
+
+This type of sets supports methods like copy(), difference(), intersection(), isdisjoint(), issubset(), issuperset(), symmetric_difference() and union(). Being immutable it does not have method that add or remove elements.
+
+```python
+# Python program to demonstrate
+# working of a FrozenSet
+
+# Creating a Set
+String = ('P', 'y', 't', 'h', 'o', 'n')
+Fset1 = frozenset(String)
+print("The FrozenSet is: ")
+print(Fset1)
+
+# To print Empty Frozen Set
+# No parameter is passed
+print("\nEmpty FrozenSet is: ")
+print(frozenset())
+```
+
+```python
+The FrozenSet is:
+frozenset({'y', 'o', 't', 'P', 'n', 'h'})
+
+Empty FrozenSet is:
+frozenset()
+```
