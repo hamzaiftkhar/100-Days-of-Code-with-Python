@@ -120,3 +120,28 @@ print(set1)
 Set after Addition of elements using Update:
 {4, 5, 10, 11, (6, 7)}
 ```
+
+## Accessing a Set
+
+Set items cannot be accessed by referring to an index, since sets are unordered the items has no index. But you can loop through the set items using a for loop, or ask if a specified value is present in a set, by using the in keyword.
+
+```python
+# Creating a set
+set1 = set(["Python", "For", "Everyone"])
+print("\nInitial set")
+print(set1)
+
+# Accessing element using
+# for loop
+print("\nElements of set: ")
+for i in set1:
+    print(i, end=" ")
+```
+
+```python
+Initial set
+{'Everyone', 'For', 'Python'}
+
+Elements of set:
+Everyone For Python
+```
