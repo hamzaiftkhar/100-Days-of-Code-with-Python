@@ -64,3 +64,59 @@ Set with the use of an Object:
 Set with the use of List:
 {'Everyone', 'For', 'Python'}
 ```
+
+## Adding Elements to a Set
+
+- **Using add() method**
+
+Elements can be added to the Set by using built-in add() function. Only one element at a time can be added to the set by using add() method, loops are used to add multiple elements at a time with the use of add() method.
+
+```python
+# Creating a Set
+set1 = set()
+print("Intial blank Set: ")
+print(set1)
+
+# Adding element and tuple to the Set
+set1.add(8)
+set1.add(9)
+set1.add((6,7))
+print("\nSet after Addition of Three elements: ")
+print(set1)
+
+# Adding elements to the Set
+# using Iterator
+for i in range(1, 6):
+    set1.add(i)
+print("\nSet after Addition of elements from 1-5: ")
+print(set1)
+```
+
+```python
+Intial blank Set:
+set()
+
+Set after Addition of Three elements:
+{8, 9, (6, 7)}
+
+Set after Addition of elements from 1-5:
+{1, 2, 3, 4, 5, 6, 7, 8, 9, (6, 7)}
+```
+
+- **Using update() method**
+
+For addition of two or more elements Update() method is used. The update() method accepts lists, strings, tuples as well as other sets as its arguments. In all of these cases, duplicate elements are avoided.
+
+```python
+# Addition of elements to the Set
+# using Update function
+set1 = set([ 4, 5, (6, 7)])
+set1.update([10, 11])
+print("\nSet after Addition of elements using Update: ")
+print(set1)
+```
+
+```python
+Set after Addition of elements using Update:
+{4, 5, 10, 11, (6, 7)}
+```
