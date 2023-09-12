@@ -37,3 +37,20 @@ Python has a set of built-in methods that you can use on sets.
 ## Operators for Sets
 
 Sets and frozen sets support the following operators:
+
+# Set Operators and Their Descriptions
+
+| Operators      | Notes                                         |
+| -------------- | --------------------------------------------- |
+| `key in s`     | Containment check                              |
+| `key not in s` | Non-containment check                          |
+| `s1 == s2`     | s1 is equivalent to s2                         |
+| `s1 != s2`     | s1 is not equivalent to s2                     |
+| `s1 <= s2`     | s1 is a subset of s2                          |
+| `s1 < s2`      | s1 is a proper subset of s2                   |
+| `s1 >= s2`     | s1 is a superset of s2                        |
+| `s1 > s2`      | s1 is a proper superset of s2                 |
+| `s1 \| s2`     | The union of s1 and s2                        |
+| `s1 & s2`      | The intersection of s1 and s2                 |
+| `s1 - s2`      | The set of elements in s1 but not in s2       |
+| `s1 ^ s2`      | The set of elements in precisely one of s1 or s2 |
