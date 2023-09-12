@@ -72,3 +72,5 @@ We will be covering the topics day by day. Each day you will be learning new con
 #### [Day-31](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-31) - Dictionary methods in Python Programming Language
 
 #### [Day-32](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-32) - Sets in Python Programming Language
+
+#### [Day-33](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-33) - Python - Set Methods
