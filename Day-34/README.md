@@ -126,3 +126,62 @@ Second element = 2
 
 An error occurred
 ```
+
+## Catching Specific Exceptions in Python
+
+In the previous example, we did not mention any exception in the except clause. This is not a good programming practice as it will catch all exceptions and handle every case in the same way. We can specify which exceptions an except clause should catch.
+
+A try clause can have any number of except clauses to handle different exceptions, however, only one will be executed in case an exception occurs. We can use a tuple of values to specify multiple exceptions in an except clause. Here is an example pseudo code:
+
+```python
+try:
+    # Code that can raise an exception
+except (Exception1[, Exception2[,...ExceptionN]]]):
+    # Code that executes if an exception is raised in the try block
+```
+
+If you want to execute a certain block of code for a specific type of exception, then you can use the following syntax:
+
+```python
+try:
+    # Code that can raise an exception
+except Exception1:
+    # Code that executes if Exception1 is raised in the try block
+except Exception2:
+    # Code that executes if Exception2 is raised in the try block
+else:
+    # Code that executes if no exceptions are raised in the try block
+```
+
+Example :
+
+```python
+# Program to handle multiple errors with one except statement
+#Python 3
+def fun(a):
+    if a < 4:
+  
+        # throws ZeroDivisionError for a = 3
+        b = a/(a-3)
+  
+    # throws NameError if a >= 4
+    print("Value of b = ", b)
+      
+try:
+    fun(3)
+    fun(5)
+  
+# note that braces () are necessary here for 
+# multiple exceptions
+except ZeroDivisionError:
+    print("ZeroDivisionError Occurred and Handled")
+except NameError:
+    print("NameError Occurred and Handled")
+```
+
+Output :
+
+```python
+ZeroDivisionError Occurred and Handled
+Value of b =  -4.0
+```
