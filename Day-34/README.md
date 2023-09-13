@@ -64,3 +64,65 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ```
 
 As you can see, the code is syntactically correct, but the addition operation is not supported between an integer and a string. This results in a TypeError exception.
+
+## Try and Except Statement – Catching Exceptions
+
+The try and except block in Python is used to catch and handle exceptions. Python executes code following the try statement as a “normal” part of the program. The code that follows the except statement is the program’s response to any exceptions in the preceding try clause.
+
+The syntax of the try-except block is:
+
+```python
+try:
+    # Code that can raise an exception
+except:
+    # Code that executes if an exception is raised in the try block
+```
+
+The try block must be followed by an except statement at the very least. You can also add an else clause after the except clause, which will execute if no exceptions are raised in the try block.
+
+```python
+try:
+    # Code that can raise an exception
+except:
+    # Code that executes if an exception is raised in the try block
+else:
+    # Code that executes if no exceptions are raised in the try block
+```
+
+You can also add a finally clause after the except or else clauses, which will execute regardless of whether an exception is raised or not.
+
+```python
+try:
+    # Code that can raise an exception
+except:
+    # Code that executes if an exception is raised in the try block
+else:
+    # Code that executes if no exceptions are raised in the try block
+finally:
+    # Code that executes regardless of whether an exception is raised or not
+```
+
+Example :
+
+```python
+# Python program to handle simple runtime error
+#Python 3
+
+a = [1, 2, 3]
+try:
+    print ("Second element = %d" %(a[1]))
+
+    # Throws error since there are only 3 elements in array
+    print ("Fourth element = %d" %(a[3]))
+
+except:
+    print ("An error occurred")
+```
+
+Output :
+
+```python
+Second element = 2
+
+An error occurred
+```
