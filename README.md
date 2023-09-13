@@ -74,3 +74,5 @@ We will be covering the topics day by day. Each day you will be learning new con
 #### [Day-32](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-32) - Sets in Python Programming Language
 
 #### [Day-33](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-33) - Python - Set Methods
+
+#### [Day-34](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-34) - Exception Handling in Python
