@@ -18,3 +18,49 @@ In Python, there are several built-in exceptions that can be raised when an erro
 - **ImportError:** This exception is raised when an import statement fails to find or load a module.
 
 These are just a few examples of the many types of exceptions that can occur in Python. It’s important to handle exceptions properly in your code using try-except blocks or other error-handling techniques, in order to gracefully handle errors and prevent the program from crashing.
+
+## Difference between Syntax Error and Exception
+
+Syntax errors occur when the parser detects an incorrect statement. Observe the following example:
+
+```python
+# Syntax Error
+if a < 3
+    print(a)
+```
+
+The above code will give the following error:
+
+```python
+  File "<ipython-input-1-8b1a6e5c4c2b>", line 2
+    if a < 3
+            ^
+
+SyntaxError: invalid syntax
+```
+
+As you can see, the parser detected the error and raised a SyntaxError before executing the code. This is because the parser cannot understand the statement if it is not syntactically correct.
+
+- On the other hand, exceptions occur when syntactically correct Python code results in an error. Observe the following example:
+
+```python
+# Exception
+a = 1
+b = "2"
+c = a + b
+```
+
+The above code will give the following error:
+
+```python
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-2-8b1a6e5c4c2b> in <module>
+      2 a = 1
+      3 b = "2"
+----> 4 c = a + b
+
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+```
+
+As you can see, the code is syntactically correct, but the addition operation is not supported between an integer and a string. This results in a TypeError exception.
