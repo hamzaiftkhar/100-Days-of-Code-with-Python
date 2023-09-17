@@ -23,7 +23,7 @@ The function should return:
 }
 ```
 
-### [Solution - Question 1]()
+### [Solution - Question 1](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-36/Question-1.py)
 
 ## Question 2
 
@@ -48,7 +48,7 @@ The function should return:
 }
 ```
 
-### [Solution - Question 2]()
+### [Solution - Question 2](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-36/Question-2.py)
 
 ## Question 3
 
@@ -67,7 +67,7 @@ The function should return the set:
 {'o', 'l', 'r', 'd', 'w'}
 ```
 
-### [Solution - Question 3]()
+### [Solution - Question 3](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-36/Question-3.py)
 
 ## Question 4
 
@@ -83,7 +83,7 @@ C = {3, 4}
 
 The function should return True because C is a subset of both A and B.
 
-### [Solution - Question 4]()
+### [Solution - Question 4](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-36/Question-4.py)
 
 ## Question 5
 
@@ -124,7 +124,7 @@ Your function should return a dictionary like this:
 
 In this example, the function calculates the word frequency for each category, and the keys in the outer dictionary are the category names ("Animals" and "Food"). The inner dictionaries contain word frequencies for each category.
 
-### [Solution - Question 5]()
+### [Solution - Question 5](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-36/Question-5.py)
 
 
 ## Additional Resources
