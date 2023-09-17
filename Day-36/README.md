@@ -125,3 +125,20 @@ Your function should return a dictionary like this:
 In this example, the function calculates the word frequency for each category, and the keys in the outer dictionary are the category names ("Animals" and "Food"). The inner dictionaries contain word frequencies for each category.
 
 ### [Solution - Question 5]()
+
+
+## Additional Resources
+
+- [Python Dictionaries](https://www.w3schools.com/python/python_dictionaries.asp)
+
+- [Python Sets](https://www.w3schools.com/python/python_sets.asp)
+
+- [Python Exceptions](https://www.w3schools.com/python/python_try_except.asp)
+
+- [Python Functions](https://www.w3schools.com/python/python_functions.asp)
+
+- [Python Recursion](https://www.w3schools.com/python/python_functions.asp)
+
+- [Python Lists](https://www.w3schools.com/python/python_lists.asp)
+
+- [Python Tuples](https://www.w3schools.com/python/python_tuples.asp)
