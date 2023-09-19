@@ -30,6 +30,70 @@ Here, `filename` is the name of the file to be opened. `mode` specifies the mode
 | 'b' | Open in binary mode. |
 | '+' | Open a file for updating (reading and writing) |
 
+- ### Creating a File in Python
+
+To create a new file in Python, use the open() method, with one of the following parameters:
+
+- "x" - Create - will create a file, returns an error if the file exist
+- "a" - Append - will create a file if the specified file does not exist
+- "w" - Write - will create a file if the specified file does not exist
+
+#### Example
+
+Create a file called "myfile.txt":
+
+```python
+f = open("myfile.txt", "x")
+```
+
+#### Result
+
+A new empty file is created!
+
+- ### Writing to a File in Python
+
+To write to an existing file, you must add a parameter to the open() function:
+
+- "a" - Append - will append to the end of the file
+- "w" - Write - will overwrite any existing content
+
+#### Example
+
+Open the file "myfile.txt" and append content to the file:
+
+```python
+f = open("myfile.txt", "a")
+f.write("Now the file has more content!")
+f.close()
+```
+
+#### Result
+
+The file "myfile.txt" has this content:
+
+```python
+Now the file has more content!
+```
+
+#### Example
+
+Open the file "myfile.txt" and overwrite the content:
+
+```python
+f = open("myfile.txt", "w")
+f.write("Woops! I have deleted the content!")
+f.close()
+```
+
+#### Result
+
+The file "myfile.txt" has the following content:
+
+```python
+Woops! I have deleted the content!
+```
+
+
 
 ## Advantages of File Handling
 
