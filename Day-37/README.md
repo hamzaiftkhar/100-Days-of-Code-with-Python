@@ -93,7 +93,117 @@ The file "myfile.txt" has the following content:
 Woops! I have deleted the content!
 ```
 
+- ### Reading from a File in Python
 
+To read from an existing file, you must add a parameter to the open() function:
+
+- "r" - Read - Default value. Opens a file for reading, error if the file does not exist
+
+#### Example
+
+Read the content of the file "myfile.txt":
+
+```python
+f = open("myfile.txt", "r")
+print(f.read())
+```
+
+#### Result
+
+```python
+Woops! I have deleted the content!
+```
+
+- ### Deleting a File in Python
+
+To delete a file, you must import the OS module, and run its os.remove() function:
+
+#### Example
+
+Remove the file "myfile.txt":
+
+```python
+import os
+os.remove("myfile.txt")
+```
+
+#### Result
+
+The file "myfile.txt" is removed!
+
+## Closing a File in Python
+
+When you're done with a file, it's always good practice to close it.
+
+Syntax:
+
+```python
+f.close()
+```
+
+- ### Example
+
+Close the file when you are finish with it:
+
+```python
+f = open("myfile.txt", "r")
+print(f.read())
+f.close()
+```
+
+## File Handling in Python using with keyword
+
+The with statement creates a context manager and it will automatically close the file handler for you when you are done with it.
+
+#### Example
+
+```python
+with open("myfile.txt", "r") as f:
+    print(f.read())
+```
+
+## File Handling in Python using try...except...finally
+
+The try block lets you test a block of code for errors.
+
+The except block lets you handle the error.
+
+The finally block lets you execute code, regardless of the result of the try- and except blocks.
+
+#### Example
+
+```python
+try:
+    f = open("myfile.txt", "r")
+    print(f.read())
+except:
+    print("Something went wrong when reading the file")
+finally:
+    f.close()
+```
+
+#### Result
+
+```python
+Woops! I have deleted the content!
+```
+
+## File Handling in Python using read() method
+
+The read() method returns the specified number of bytes from the file. Default is -1 which means the whole file.
+
+#### Example
+
+```python
+f = open("myfile.txt", "r")
+print(f.read(5))
+```
+
+#### Result
+
+```python
+Woops
+```
 
 ## Advantages of File Handling
 
