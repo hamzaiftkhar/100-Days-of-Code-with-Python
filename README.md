@@ -80,3 +80,5 @@ We will be covering the topics day by day. Each day you will be learning new con
 #### [Day-35](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-35) - Week-5 Review and Our Fifth Challenge Exercise
 
 #### [Day-36](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-36) - Fifth Exercise Solution and Additional Resources
+
+#### [Day-37](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-37) - File Handling in Python
