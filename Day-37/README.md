@@ -8,6 +8,29 @@ Like Other Programming Languages, Python also supports file handling operations.
 - Read or write (perform operation)
 - Close the file
 
+## open() Function in Python
+
+The open() function is used to open files in Python. It returns a file object, which provides methods and attributes to perform various operations on files.
+
+Syntax:
+
+```python
+f = open(filename, mode)
+```
+
+Here, `filename` is the name of the file to be opened. `mode` specifies the mode in which the file has to be opened, i.e., read, write, append, etc. The following table lists all the possible values that can be used in the mode field.
+
+| Mode | Description |
+| ---- | ----------- |
+| 'r' | Open a file for reading. (default) |
+| 'w' | Open a file for writing. Creates a new file if it does not exist or truncates the file if it exists. |
+| 'x' | Open a file for exclusive creation. If the file already exists, the operation fails. |
+| 'a' | Open for appending at the end of the file without truncating it. Creates a new file if it does not exist. |
+| 't' | Open in text mode. (default) |
+| 'b' | Open in binary mode. |
+| '+' | Open a file for updating (reading and writing) |
+
+
 ## Advantages of File Handling
 
 - **Versatility:** File handling in Python allows you to perform a wide range of operations, such as creating, reading, writing, appending, renaming, and deleting files.
