@@ -114,6 +114,28 @@ print(f.read())
 Woops! I have deleted the content!
 ```
 
+- ### Working of Append Mode
+
+If you use the "a" value to open a file, any data written to the file is automatically appended to the end.
+
+#### Example
+
+```python
+f = open("myfile.txt", "a")
+f.write("Now the file has more content!")
+f.close()
+
+#open and read the file after the appending:
+f = open("myfile.txt", "r")
+print(f.read())
+```
+
+#### Result
+
+```python
+Woops! I have deleted the content!Now the file has more content!
+```
+
 - ### Deleting a File in Python
 
 To delete a file, you must import the OS module, and run its os.remove() function:
