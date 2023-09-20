@@ -9,7 +9,7 @@ In other words, we can say that local variables are accessible only inside the f
 
 "Local variables in Python are those which are initialized inside a function and belong only to that particular function. It cannot be accessed anywhere outside the function."
 
-### Creating a Local Variable
+- ### Creating a Local Variable
 
 To create a local variable in Python, we simply need to assign a value to a variable inside a function. We can do this by using the assignment operator (=).
 
@@ -27,7 +27,7 @@ Output:
 7
 ```
 
-**Q. Can a Local Variable be accessed outside the function?**
+- **Q. Can a Local Variable be accessed outside the function?**
 
 Ans. No, a local variable cannot be accessed outside the function. If we try to access a local variable outside the function, it will give an error.
 
@@ -48,4 +48,31 @@ Traceback (most recent call last):
   File "main.py", line 6, in <module>
     print(x)
 NameError: name 'x' is not defined
+```
+
+## Python Global Variables
+
+These are those which are defined outside any function and which are accessible throughout the program, i.e., inside and outside of every function. 
+
+Let’s see how to create a Python global variable.
+
+- ### Creating a Global Variable
+
+To create a global variable in Python, we simply need to assign a value to a variable outside a function. We can do this by using the assignment operator (=).
+
+```python
+x = 7
+
+def func():
+    print(x)
+
+func()
+print(x)
+```
+
+Output:
+
+```python
+7
+7
 ```
