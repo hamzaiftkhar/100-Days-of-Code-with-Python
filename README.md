@@ -82,3 +82,5 @@ We will be covering the topics day by day. Each day you will be learning new con
 #### [Day-36](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-36) - Fifth Exercise Solution and Additional Resources
 
 #### [Day-37](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-37) - File Handling in Python
+
+#### [Day-38](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-38) - Python Local and Global Variables
