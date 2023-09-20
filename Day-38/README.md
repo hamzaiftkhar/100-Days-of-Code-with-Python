@@ -76,3 +76,9 @@ Output:
 7
 7
 ```
+
+### Why do we use Local and Global Variables?
+
+- **Local Variables:** Local variables are used to store temporary information. They are created when the function is called and destroyed when the function returns. They are accessible only inside the function in which they are defined.
+
+- **Global Variables:** Global variables are used to store information which is to be used throughout the program. They are created when the program starts and destroyed when the program ends. They are accessible throughout the program.
