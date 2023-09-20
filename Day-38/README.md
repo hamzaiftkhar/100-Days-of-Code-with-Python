@@ -107,3 +107,17 @@ Output:
 8
 8
 ```
+
+## Difference between Local and Global Variables
+
+| Comparison Basis | Global Variable                    | Local Variable                   |
+| ---------------- | ---------------------------------- | -------------------------------- |
+| Definition       | Declared outside the functions    | Declared within the functions    |
+| Lifetime         | Created when the program begins   | Created when the function starts |
+|                  | and lost when the program ends    | its execution and lost when the  |
+|                  |                                  | function ends                    |
+| Data Sharing     | Offers Data Sharing               | Doesn't offer Data Sharing       |
+| Scope            | Can be accessed throughout the code | Can access only inside the function |
+| Parameters needed | Parameter passing is not necessary | Parameter passing is necessary    |
+| Storage          | A fixed location selected by the compiler | Kept on the stack               |
+| Value            | Once the value changes, it is reflected throughout the code | Once changed, the variable doesn't affect other functions of the program |
