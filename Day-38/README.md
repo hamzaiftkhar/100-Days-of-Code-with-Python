@@ -82,3 +82,28 @@ Output:
 - **Local Variables:** Local variables are used to store temporary information. They are created when the function is called and destroyed when the function returns. They are accessible only inside the function in which they are defined.
 
 - **Global Variables:** Global variables are used to store information which is to be used throughout the program. They are created when the program starts and destroyed when the program ends. They are accessible throughout the program.
+
+## The global Keyword
+
+- The global keyword is used to create a global variable inside a function. It is used to create a global variable and make changes to the variable in a local context.
+
+- If we want to create a global variable inside a function, we can do so by using the global keyword. We can also use the global keyword to make changes to the global variable inside a function.
+
+```python
+x = 7
+
+def func():
+    global x
+    x = 8
+    print(x)
+
+func()
+print(x)
+```
+
+Output:
+
+```python
+8
+8
+```
