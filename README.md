@@ -84,3 +84,5 @@ We will be covering the topics day by day. Each day you will be learning new con
 #### [Day-37](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-37) - File Handling in Python
 
 #### [Day-38](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-38) - Python Local and Global Variables
+
+#### [Day-39](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-39) - How Import Works in Python
