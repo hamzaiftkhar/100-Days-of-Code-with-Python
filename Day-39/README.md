@@ -85,3 +85,24 @@ print(pi)  # Output: 3.141592653589793
 ```
 
 In this example, we import the sqrt and pi functions from the math module and then use them to calculate the square root of 9 and print the value of pi. The result is then printed to the console.
+
+## Importing All Functions from a Module
+
+You can also import all functions from a module using the * operator. For example, to import all functions from the math module, you would use the following statement:
+
+```python
+from math import *
+```
+
+This statement imports all functions from the math module. Now you can use all functions from the math module without using the dot notation. For example, to calculate the square root of 9, you would use the following statement:
+
+```python
+from math import *
+
+result = sqrt(9)
+print(result)  # Output: 3.0
+
+print(pi)  # Output: 3.141592653589793
+```
+
+Python also allows you to rename imported modules using the as keyword. This can be useful if you want to use a shorter or more descriptive name for a module, or if you want to avoid naming conflicts with other modules or variables in your code.
