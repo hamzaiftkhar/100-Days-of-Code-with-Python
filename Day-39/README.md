@@ -27,3 +27,29 @@ print(result)  # Output: 3.0
 ```
 
 In this example, we import the math module and then use the sqrt function to calculate the square root of 9. The result is then printed to the console.
+
+## Importing a Module Using "as" Keyword
+
+You can also import a module using **as** keyword. For example, to import the math module using the keyword as, you would use the following statement:
+
+```python
+import math as m
+```
+
+here m is the alias of math module. Now you can access the math module using m instead of math. For example, to access the square root function defined in the math module, you would use the following statement:
+
+```python
+import math as m
+
+result = m.sqrt(9)
+print(result)  # Output: 3.0
+
+print(m.pi)  # Output: 3.141592653589793
+```
+
+Output:
+
+```python
+3.0
+3.141592653589793
+```
