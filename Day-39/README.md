@@ -53,3 +53,35 @@ Output:
 3.0
 3.141592653589793
 ```
+
+## Importing Specific Functions from a Module
+
+You can also import specific functions from a module using the from keyword. For example, to import the sqrt function from the math module, you would use the following statement:
+
+```python
+from math import sqrt
+```
+
+This statement imports the sqrt function from the math module. Now you can use the sqrt function without using the dot notation. For example, to calculate the square root of 9, you would use the following statement:
+
+```python
+from math import sqrt
+
+result = sqrt(9)
+print(result)  # Output: 3.0
+```
+
+In this example, we import the sqrt function from the math module and then use it to calculate the square root of 9. The result is then printed to the console.
+
+we can also import multiple functions from a module using the from keyword. For example, to import the sqrt and pi functions from the math module, you would use the following statement:
+
+```python
+from math import sqrt, pi
+
+result = sqrt(9)
+print(result)  # Output: 3.0
+
+print(pi)  # Output: 3.141592653589793
+```
+
+In this example, we import the sqrt and pi functions from the math module and then use them to calculate the square root of 9 and print the value of pi. The result is then printed to the console.
