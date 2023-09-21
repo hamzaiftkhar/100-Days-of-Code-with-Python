@@ -24,7 +24,4 @@ def floor(a, b):
 def main():
     print("This is a practice file.")
 
-if __name__ == "__main__":
-    main()
-
 # End of file
