@@ -26,7 +26,7 @@ print(round(4.6))      # 5
 
 from random import randint, choice
 
-print(randint(1, 10))  # 5
+print(randint(1, 10))  
 
 lst = [1, 2, 3, 4, 5]
-print(choice(lst))     # 4
+print(choice(lst))    
