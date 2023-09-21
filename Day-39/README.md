@@ -125,6 +125,8 @@ Output:
 
 In this example, we import the math module and then use the dir() function to get a list of all the names defined in the math module. The result is then printed to the console.
 
+## Importing our self-made modules
+
 We can also import our own modules using the import statement. For example, to import a module named mymodule.py, you would use the following statement:
 
 ```python
