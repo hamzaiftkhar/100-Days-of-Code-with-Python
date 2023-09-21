@@ -106,3 +106,44 @@ print(pi)  # Output: 3.141592653589793
 ```
 
 Python also allows you to rename imported modules using the as keyword. This can be useful if you want to use a shorter or more descriptive name for a module, or if you want to avoid naming conflicts with other modules or variables in your code.
+
+## The dir() Function
+
+The dir() function returns a list of all the names defined in a module. For example, to get a list of all the names defined in the math module, you would use the following statement:
+
+```python
+import math
+
+print(dir(math))
+```
+
+Output:
+
+```python
+['__doc__', '__loader__', '__name__', '__package__', '__spec__', 'acos', 'acosh', 'asin', 'asinh', 'atan', 'atan2', 'atanh', 'ceil', 'comb', 'copysign', 'cos', 'cosh', 'degrees', 'dist', 'e', 'erf', 'erfc', 'exp', 'expm1', 'fabs', 'factorial', 'floor', 'fmod', 'frexp', 'fsum', 'gamma', 'gcd', 'hypot', 'inf', 'isclose', 'isfinite', 'isinf', 'isnan', 'isqrt', 'ldexp', 'lgamma', 'log', 'log10', 'log1p', 'log2', 'modf', 'nan', 'perm', 'pi', 'pow', 'prod', 'radians', 'remainder', 'sin', 'sinh', 'sqrt', 'tan', 'tanh', 'tau', 'trunc']
+```
+
+In this example, we import the math module and then use the dir() function to get a list of all the names defined in the math module. The result is then printed to the console.
+
+We can also import our own modules using the import statement. For example, to import a module named mymodule.py, you would use the following statement:
+
+```python
+import mymodule
+```
+
+This statement creates a new namespace containing all of the functions and variables defined in the mymodule.py file. You can then access these functions and variables using the dot operator. For example, to access the pi variable defined in the mymodule.py file, you would use the following statement:
+
+```python
+mymodule.pi
+```
+
+This statement returns the value of pi, which is 3.141592653589793.
+
+Once a module is imported, you can use any of the functions and variables defined in the module by using the dot notation. For example, to use the sqrt function from the mymodule.py file, you would write:
+
+```python
+import mymodule
+
+result = mymodule.sqrt(9)
+print(result)  # Output: 3.0
+```
