@@ -89,3 +89,57 @@ In the above example, the script.py script is run directly, so the ```__name__``
 
 When the script.py script is imported as a module into the main.py script, the ```__name__``` variable is set to the name of the module, which is script. Since the ```__name__``` variable is not set to ```__main__```, the code inside the if statement is not executed.
 
+## Important Concept
+
+Consider the following example:
+
+```python
+def main():
+    print("Running script directly")
+
+if __name__ == "__main__":
+    main()
+```
+
+```python
+import script
+
+print("Importing script")
+```
+
+Output:
+
+```python
+Importing script
+```
+
+Here ```__name__``` is a built-in variable which evaluates to the name of the current module. However, if a module is being run directly (as in the case of script.py above), then ```__name__``` instead is set to the string ```__main__```.
+
+- If the script is run directly where the script is the entry point, then ```__name__``` is set to ```__main__```.
+- If the script is imported as a module into another script, then ```__name__``` is set to the name of the module.
+
+Example:
+
+```python
+# script.py
+
+print(__name__)
+```
+
+```python
+# main.py
+
+import script
+```
+
+Now if we run the script.py file, we will get the following output:
+
+```python
+__main__
+```
+
+And if we run the main.py file, we will get the following output:
+
+```python
+script
+```
