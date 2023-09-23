@@ -144,6 +144,37 @@ And if we run the main.py file, we will get the following output:
 script
 ```
 
+## What will happen if we don't use if ```__name__ == "__main__"``` ?
+
+Consider the following example:
+
+```python
+# script.py
+
+def main():
+    print("Running script directly")
+
+main()
+```
+
+```python
+# main.py
+
+import script
+```
+
+Output: upon running main.py
+
+```python
+Running script directly
+```
+
+Here we can see clearly that we have only imported the script.py file in main.py file. But when we run the main.py file, it will run the script.py file also but we have not written any sort of code in main.py to run any function of of script.py but its running automatically.
+
+This is because when we import a script in another script, it will run the whole script automatically. So to prevent this, we use if ```__name__ == "__main__"``` in the script file. So when we import this script in another script, it will not run the whole script.
+
+This is a very major concept to use in order to avoid unwanted side effects. These issues can lead to some difficult problems in complex programs.
+
 ## Conclusion
 
 The if ```__name__ == __main__``` idiom is a common pattern used in Python scripts to determine whether the script is being run directly or being imported as a module into another script.
