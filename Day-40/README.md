@@ -48,3 +48,44 @@ The if __name__ == __main__ idiom is useful when you want to be able to run a Py
 For example, if you have a script that performs some calculations and prints the results to the console, you may want to be able to import the script into another script without having the calculations and print statements run automatically.
 
 The if __name__ == __main__ idiom allows you to do this by placing the code that you want to run only when the script is run directly inside the if statement.
+
+## Why it is necessary to use ?
+
+The if '__name__ == __main__' idiom is not strictly necessary, but it is considered good practice to use it in Python scripts.
+
+The reason for this is that when you import a Python script as a module into another script, the code in the imported script is executed immediately.
+
+This can cause unwanted side effects if the imported script contains code that performs calculations or prints output to the console.
+
+The if __name__ == __main__ idiom allows you to prevent this from happening by placing the code that you want to run only when the script is run directly inside the if statement.
+
+- ### Example
+
+Suppose you make a script file which deletes some files in a folder. Now you want to use this script in another script. So you import this script in another script. But when you import this script, it will delete the files in the folder automatically just after importing. Because on importing it will run the whole script without doing anything in new script. 
+
+So to prevent this, we use if __name__ == "__main__" in the script file. So when we import this script in another script, it will not run the whole script.
+
+```python
+def main():
+    print("Running script directly")
+
+if __name__ == "__main__":
+    main()
+```
+
+```python
+import script
+
+print("Importing script")
+```
+
+Output:
+
+```python
+Importing script
+```
+
+In the above example, the script.py script is run directly, so the __name__ variable is set to __main__ and the if __name__ == __main__ condition is satisfied, so the code inside the if statement is executed.
+
+When the script.py script is imported as a module into the main.py script, the __name__ variable is set to the name of the module, which is script. Since the __name__ variable is not set to __main__, the code inside the if statement is not executed.
+
