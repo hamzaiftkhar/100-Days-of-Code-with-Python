@@ -1,10 +1,10 @@
 # " if __name__ == "__main__" works in Python
 
-The if **__name__ == "__main__"** idiom is a common pattern used in Python scripts to determine whether the script is being run directly or being imported as a module into another script.
+The if ```__name__ == "__main__"``` idiom is a common pattern used in Python scripts to determine whether the script is being run directly or being imported as a module into another script.
 
-In Python, the __name__ variable is a built-in variable that is automatically set to the name of the current module. When a Python script is run directly, the __name__ variable is set to the string __main__ When the script is imported as a module into another script, the __name__ variable is set to the name of the module.
+In Python, the ```__name__``` variable is a built-in variable that is automatically set to the name of the current module. When a Python script is run directly, the ```__name__``` variable is set to the string ```__main__``` When the script is imported as a module into another script, the ```__name__ ``` variable is set to the name of the module.
 
-Here's an example of how the if __name__ == __main__ idiom can be used:
+Here's an example of how the if ```__name__ == __main__``` idiom can be used:
 
 ```python
 # my_module.py
@@ -39,31 +39,31 @@ Hello, I'm the main script
 Hello, I'm a function
 ```
 
-In the above example, the my_module.py script is run directly, so the __name__ variable is set to __main__ and the if __name__ == __main__ condition is satisfied, so the code inside the if statement is executed.
+In the above example, the my_module.py script is run directly, so the ```__name__``` variable is set to ```__main__``` and the if ```__name__ == __main__``` condition is satisfied, so the code inside the if statement is executed.
 
-When the my_module.py script is imported as a module into the main.py script, the __name__ variable is set to the name of the module, which is my_module. Since the __name__ variable is not set to __main__, the code inside the if statement is not executed.
+When the my_module.py script is imported as a module into the main.py script, the ```__name__``` variable is set to the name of the module, which is my_module. Since the ```__name__``` variable is not set to ```__main__```, the code inside the if statement is not executed.
 
-The if __name__ == __main__ idiom is useful when you want to be able to run a Python script both directly and via import without having unwanted side effects.
+The if ```__name__ == __main__``` idiom is useful when you want to be able to run a Python script both directly and via import without having unwanted side effects.
 
 For example, if you have a script that performs some calculations and prints the results to the console, you may want to be able to import the script into another script without having the calculations and print statements run automatically.
 
-The if __name__ == __main__ idiom allows you to do this by placing the code that you want to run only when the script is run directly inside the if statement.
+The if ```__name__ == __main__``` idiom allows you to do this by placing the code that you want to run only when the script is run directly inside the if statement.
 
 ## Why it is necessary to use ?
 
-The if '__name__ == __main__' idiom is not strictly necessary, but it is considered good practice to use it in Python scripts.
+The if ```__name__ == __main__``` idiom is not strictly necessary, but it is considered good practice to use it in Python scripts.
 
 The reason for this is that when you import a Python script as a module into another script, the code in the imported script is executed immediately.
 
 This can cause unwanted side effects if the imported script contains code that performs calculations or prints output to the console.
 
-The if __name__ == __main__ idiom allows you to prevent this from happening by placing the code that you want to run only when the script is run directly inside the if statement.
+The if ```__name__ == __main__``` idiom allows you to prevent this from happening by placing the code that you want to run only when the script is run directly inside the if statement.
 
 - ### Example
 
 Suppose you make a script file which deletes some files in a folder. Now you want to use this script in another script. So you import this script in another script. But when you import this script, it will delete the files in the folder automatically just after importing. Because on importing it will run the whole script without doing anything in new script. 
 
-So to prevent this, we use if __name__ == "__main__" in the script file. So when we import this script in another script, it will not run the whole script.
+So to prevent this, we use if ```__name__ == "__main__"``` in the script file. So when we import this script in another script, it will not run the whole script.
 
 ```python
 def main():
@@ -85,7 +85,7 @@ Output:
 Importing script
 ```
 
-In the above example, the script.py script is run directly, so the __name__ variable is set to __main__ and the if __name__ == __main__ condition is satisfied, so the code inside the if statement is executed.
+In the above example, the script.py script is run directly, so the ```__name__``` variable is set to ```__main__``` and the if ```__name__ == __main__``` condition is satisfied, so the code inside the if statement is executed.
 
-When the script.py script is imported as a module into the main.py script, the __name__ variable is set to the name of the module, which is script. Since the __name__ variable is not set to __main__, the code inside the if statement is not executed.
+When the script.py script is imported as a module into the main.py script, the ```__name__``` variable is set to the name of the module, which is script. Since the ```__name__``` variable is not set to ```__main__```, the code inside the if statement is not executed.
 
