@@ -67,3 +67,29 @@ Python
 for
 Fun
 ```
+
+## Read a file line by line using for loop and list comprehension
+
+**for loop** is used to iterate over a file object. It returns the content of a file as a string. We can use strip() function to remove the newline character from the end of the line.
+
+Example:
+
+```python
+with open('myfile.txt') as f:
+    lines = [line for line in f]
+
+print(lines)
+
+# removing the new line characters
+with open('myfile.txt') as f:
+    lines = [line.rstrip() for line in f]
+
+print(lines)
+```
+
+Output:
+
+```python
+['Python\n', 'for\n', 'Fun\n']
+['Python', 'for', 'Fun']
+```
