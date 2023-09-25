@@ -88,3 +88,5 @@ We will be covering the topics day by day. Each day you will be learning new con
 #### [Day-39](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-39) - How Import Works in Python
 
 #### [Day-40](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-40) - How ```if __name__ == "__main__"``` works in Python?
+
+#### [Day-41](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-41) - read, readlines and other file methods
