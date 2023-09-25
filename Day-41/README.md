@@ -35,3 +35,35 @@ Line1: Python
 Line2: for
 Line3: Fun
 ```
+
+## Read a file line by line using read() method
+
+**read()** is used to read all the content of a file at once. It returns the content as a single string, and if the size hint is specified, returns exactly that number of characters.
+
+Example:
+
+```python
+# Python code to
+# demonstrate read()
+
+L = ["Python\n", "for\n", "Fun\n"]
+
+# writing to file
+file1 = open('myfile.txt', 'w')
+file1.writelines(L)
+file1.close()
+
+# Using readlines()
+file1 = open('myfile.txt', 'r')
+Lines = file1.read()
+
+print(Lines)
+```
+
+Output:
+
+```python
+Python
+for
+Fun
+```
