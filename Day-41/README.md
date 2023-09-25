@@ -93,3 +93,9 @@ Output:
 ['Python\n', 'for\n', 'Fun\n']
 ['Python', 'for', 'Fun']
 ```
+
+- ### with statement
+
+In the above approaches, every time the file is opened it is needed to be closed explicitly. If one forgets to close the file, it may introduce several bugs in the code, i.e. many changes in files do not go into effect until the file is properly closed. To prevent this with statement can be used. The With statement in Python is used in exception handling to make the code cleaner and much more readable. It simplifies the management of common resources like file streams.
+
+There is no need to call file.close() when using with the statement. The with the statement itself ensures proper acquisition and release of resources.
