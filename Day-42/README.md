@@ -22,3 +22,10 @@
 - Importing All Functions from a Module
 - The dir() Function
 - Importing our self-made modules
+
+#### [Day-40](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-40) - How ```if __name__ == "__main__"``` works in Python?
+
+- How ```if __name__ == "__main__"``` works in Python?
+- ```__name__``` variable
+- ```__main__``` variable
+- Why it is necessary to use ?
