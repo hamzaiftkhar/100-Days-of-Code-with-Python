@@ -12,4 +12,13 @@
 - Local Variables
 - Global Variables
 - Global Keyword
+- Difference between Local and Global Variables
 
+#### [Day-39](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-39) - How Import Works in Python
+
+- How Import Works in Python
+- Importing a Module Using "as" Keyword
+- Importing Specific Functions from a Module
+- Importing All Functions from a Module
+- The dir() Function
+- Importing our self-made modules
