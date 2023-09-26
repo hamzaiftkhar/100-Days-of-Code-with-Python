@@ -29,3 +29,10 @@
 - ```__name__``` variable
 - ```__main__``` variable
 - Why it is necessary to use ?
+
+#### [Day-41](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-41) - read, readlines and other file methods
+
+- read() method
+- readlines() method
+- Read file using loop
+- with statement
