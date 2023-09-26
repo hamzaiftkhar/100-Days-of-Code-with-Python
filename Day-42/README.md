@@ -7,3 +7,9 @@
 - Reading Files
 - Deleting Files
 
+#### [Day-38](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-38) - Python Local and Global Variables
+
+- Local Variables
+- Global Variables
+- Global Keyword
+
