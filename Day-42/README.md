@@ -56,3 +56,19 @@ Alphabets and numbers are allowed in the password.
 Output:
 3
 ```
+
+### Question-2
+
+Write a function in Python to count and display the total number of words in a text file ?
+
+```
+Test Case:
+If the file contain following items :
+
+Hello world
+This is Python Programming
+Language
+
+Output:
+7
+```
