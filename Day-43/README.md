@@ -111,3 +111,12 @@ Book with maximum price:
 ```
 
 - ### [Question-5 Solution]()
+
+## Additional Resources
+
+1. [Python File Handling](https://www.w3schools.com/python/python_file_handling.asp)
+2. [Python File Operation](https://www.programiz.com/python-programming/file-operation)
+3. [File handling in Python](https://www.geeksforgeeks.org/file-handling-python/)
+4. [Python File Handling(Tutorials Point)](https://www.tutorialspoint.com/python/python_files_io.htm)
+5. [Python File Handling Practice Question](hhttps://www.pyforschool.com/assignment/file-handling.html)
+6. [Python File Handling Exercise](https://www.w3resource.com/python-exercises/file/)
