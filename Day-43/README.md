@@ -18,7 +18,7 @@ Output:
 3
 ```
 
-- ### [Question-1 Solution]()
+- ### [Question-1 Solution](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-43/Question-1.py)
 
 ### Question-2
 
@@ -36,7 +36,7 @@ Output:
 7
 ```
 
-- ### [Question-2 Solution]()
+- ### [Question-2 Solution](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-43/Question-2.py)
 
 ### Question-3
 
@@ -52,7 +52,7 @@ Output:
 H#e#l#l#o# #W#o#r#l#d
 ```
 
-- ### [Question-3 Solution]()
+- ### [Question-3 Solution](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-43/Question-3.py)
 
 ### Question-4
 
@@ -75,7 +75,7 @@ Output:
 Number of students scoring above 75% is 2
 ```
 
-- ### [Question-4 Solution]()
+- ### [Question-4 Solution](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-43/Question-4.py)
 
 ### Question-5
 
@@ -110,7 +110,7 @@ Book with maximum price:
 105, C++ Programming, Reema Thareja, 550.0
 ```
 
-- ### [Question-5 Solution]()
+- ### [Question-5 Solution](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/blob/main/Day-43/Question-5.py)
 
 ## Additional Resources
 
