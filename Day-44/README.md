@@ -64,3 +64,73 @@ To understand the state, behavior, and identity let us take the example of the c
 - State or Attributes can be considered as the breed, age, or color of the dog.
 - The behavior can be considered as to whether the dog is eating or sleeping.
 
+## The Python __init__ Method 
+
+The __init__ method is similar to constructors in C++ and Java. It is run as soon as an object of a class is instantiated. The method is useful to do any initialization you want to do with your object. Now let us define a class and create some objects using the self and __init__ method.
+
+**Example:**
+
+```python
+
+class Dog:
+ 
+    # class attribute
+    attr1 = "mammal"
+ 
+    # Instance attribute
+    def __init__(self, name):
+        self.name = name
+ 
+# Driver code
+# Object instantiation
+Rodger = Dog("Rodger")
+Tommy = Dog("Tommy")
+
+# Accessing class attributes
+print("Rodger is a {}".format(Rodger.__class__.attr1))
+print("Tommy is also a {}".format(Tommy.__class__.attr1))
+
+# Accessing instance attributes
+print("My name is {}".format(Rodger.name))
+print("My name is {}".format(Tommy.name))
+```
+
+**Output:**
+
+```python
+Rodger is a mammal
+Tommy is also a mammal
+My name is Rodger
+My name is Tommy
+```
+
+## Python Inheritance
+
+Inheritance is the most important aspect of object-oriented programming which simulates the real-world concept of inheritance. It specifies that the child object acquires all the properties and behaviors of the parent object.
+
+By using inheritance, we can create a class which uses all the properties and behavior of another class. The new class is known as a derived class or child class, and the one whose properties are acquired is known as a base class or parent class.
+
+It provides re-usability of the code.
+
+### Types of Inheritance
+
+- **Single Inheritance:** Single-level inheritance enables a derived class to inherit characteristics from a single-parent class.
+- **Multilevel Inheritance:** Multi-level inheritance enables a derived class to inherit properties from an immediate parent class which in turn inherits properties from his parent class. 
+- **Hierarchical Inheritance:** Hierarchical-level inheritance enables more than one derived class to inherit properties from a parent class.
+- **Multiple Inheritance:** Multiple-level inheritance enables one derived class to inherit properties from more than one base class.
+
+## Python Polymorphism
+
+Polymorphism is an ability (in OOP) to use a common interface for multiple forms (data types).
+
+Suppose, we need to color a shape, there are multiple shape options (rectangle, square, circle). However we could use the same method to color any shape. This concept is called Polymorphism.
+
+Polymorphism is based on the greek words Poly (many) and morphism (forms). We will create a structure that can take or use many forms of objects.
+
+### Method Overriding
+In Python, Polymorphism lets us define methods in the child class that have the same name as the methods in the parent class. In inheritance, the child class inherits the methods from the parent class. However, it is possible to modify a method in a child class that it has inherited from the parent class. This is particularly useful in cases where the method inherited from the parent class doesn’t quite fit the child class. In such cases, we re-implement the method in the child class. This process of re-implementing a method in the child class is known as Method Overriding.
+
+## Python Encapsulation
+
+Encapsulation is one of the fundamental concepts in object-oriented programming (OOP). It describes the idea of wrapping data and the methods that work on data within one unit. This puts restrictions on accessing variables and methods directly and can prevent the accidental modification of data. To prevent accidental change, an object’s variable can only be changed by an object’s method. Those types of variables are known as private variable. A class is an example of encapsulation as it encapsulates all the data that is member functions, variables, etc.
+
