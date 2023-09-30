@@ -134,3 +134,14 @@ In Python, Polymorphism lets us define methods in the child class that have the 
 
 Encapsulation is one of the fundamental concepts in object-oriented programming (OOP). It describes the idea of wrapping data and the methods that work on data within one unit. This puts restrictions on accessing variables and methods directly and can prevent the accidental modification of data. To prevent accidental change, an object’s variable can only be changed by an object’s method. Those types of variables are known as private variable. A class is an example of encapsulation as it encapsulates all the data that is member functions, variables, etc.
 
+A class is an example of encapsulation as it encapsulates all the data that is member functions, variables, etc.
+
+It prevents outer classes from accessing and changing attributes and methods of a class. This also helps to achieve data hiding.
+
+## Python Data Abstraction
+
+Data Abstraction is providing only essential information to the outside world and hiding their background details, i.e., to represent the needed information in program without presenting the details.
+
+Data Abstraction may also be defined as the process of identifying only the required characteristics of an object ignoring the irrelevant details. The properties and behaviors of an object differentiate it from other objects of similar type and also help in classifying/grouping the objects.
+
+Data Abstraction is the property by virtue of which only the essential details are displayed to the user.The trivial or the non-essentials units are not displayed to the user. Ex: A car is viewed as a car rather than its individual components.
