@@ -94,3 +94,5 @@ We will be covering the topics day by day. Each day you will be learning new con
 #### [Day-42](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-42) - Week-6 Review and Our Sixth Challenge Exercise
 
 #### [Day-43](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-43) - Sixth Exercise Solution and Additional Resources
+
+#### [Day-44](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-44) - Introduction to Object Oriented Programming in Python
