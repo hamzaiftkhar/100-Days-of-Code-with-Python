@@ -81,3 +81,31 @@ I'm a dog
 
 In the above example, an object is created which is basically a dog named Rodger. This class only has two class attributes that tell us that Rodger is a dog and a mammal. The method fun() tells us that the dog can state its identity. This is how an object is created and used.
 
+## __init__() method
+
+The ```__init__``` method is similar to constructors in C++ and Java. Constructors are used to initializing the object’s state. Like methods, a constructor also contains a collection of statements(i.e. instructions) that are executed at the time of Object creation. It runs as soon as an object of a class is instantiated. The method is useful to do any initialization you want to do with your object.
+
+**Example:**
+
+```python
+# Sample class with init method
+class Person:
+
+    # init method or constructor
+    def __init__(self, name):
+        self.name = name
+
+    # Sample Method
+    def say_hi(self):
+        print('Hello, my name is', self.name)
+
+
+p = Person('Python')
+p.say_hi()
+```
+
+**OUTPUT**
+
+```python
+Hello, my name is Python
+```
