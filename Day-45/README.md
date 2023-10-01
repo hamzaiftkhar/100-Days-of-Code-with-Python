@@ -81,7 +81,7 @@ I'm a dog
 
 In the above example, an object is created which is basically a dog named Rodger. This class only has two class attributes that tell us that Rodger is a dog and a mammal. The method fun() tells us that the dog can state its identity. This is how an object is created and used.
 
-## __init__() method
+## ```__init__()``` method
 
 The ```__init__``` method is similar to constructors in C++ and Java. Constructors are used to initializing the object’s state. Like methods, a constructor also contains a collection of statements(i.e. instructions) that are executed at the time of Object creation. It runs as soon as an object of a class is instantiated. The method is useful to do any initialization you want to do with your object.
 
@@ -136,3 +136,28 @@ Hello my name is hamza and I am studying Python Programming.
 
 In the above example, we define a class named CS. The ```__init__``` method is used to initialize the object’s state. The ```self``` parameter refers to the instance of the object itself. The ```self``` parameter is used to access variables that belong to the class. It is used to access methods also.
 
+## ```__str__()``` method
+
+Python has a particular method called __str__(). that is used to define how a class object should be represented as a string. It is often used to give an object a human-readable textual representation, which is helpful for logging, debugging, or showing users object information. When a class object is used to create a string using the built-in functions print() and str(), the __str__() function is automatically used. You can alter how objects of a class are represented in strings by defining the __str__() method.
+
+**Example:**
+
+```python
+class CS:
+    def __init__(self, name, subject):
+        self.name = name
+        self.subject = subject
+
+    def __str__(self):
+        return f"My name is {self.name} and I work in {self.subject}."
+
+
+my_obj = CS("HAMZA", "Python Programming")
+print(my_obj)
+```
+
+**OUTPUT**
+
+```python
+My name is HAMZA and I work in Python Programming.
+```
