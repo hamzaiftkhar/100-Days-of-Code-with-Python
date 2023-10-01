@@ -109,3 +109,30 @@ p.say_hi()
 ```python
 Hello, my name is Python
 ```
+
+In the above example, we define a class named Person. The ```__init__``` method is used to initialize the object’s state. The ```self``` parameter refers to the instance of the object itself. The ```self``` parameter is used to access variables that belong to the class. It is used to access methods also.
+
+## Self Parameter
+
+class CS:
+    def __init__(self, name, subject):
+        self.name = name
+        self.subject = subject
+
+    def show(self):
+        print("Hello my name is " + self.name+" and I" +
+            " am studying "+self.subject+".")
+
+
+obj = CS("hamza", "Python Programming")
+obj.show()
+```
+
+**OUTPUT**
+
+```python
+Hello my name is hamza and I am studying Python Programming.
+```
+
+In the above example, we define a class named CS. The ```__init__``` method is used to initialize the object’s state. The ```self``` parameter refers to the instance of the object itself. The ```self``` parameter is used to access variables that belong to the class. It is used to access methods also.
+
