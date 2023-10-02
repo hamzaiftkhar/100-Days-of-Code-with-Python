@@ -59,3 +59,53 @@ Good Morning
 Hello world
 Thanks for using this function
 ```
+
+## Decorators with function arguments
+
+```python
+def greet(fx):
+  def mfx(*args, **kwargs):
+    print("Good Morning")
+    fx(*args, **kwargs)
+    print("Thanks for using this function")
+  return mfx
+
+@greet
+def add(x, y):
+  print(x + y)
+
+add(5, 6)
+```
+
+**Output:**
+
+```python
+Good Morning
+11
+Thanks for using this function
+```
+
+Explanation: In the above example, the add() function takes two arguments x and y. The greet() function takes the add() function as an argument and returns the mfx() function. The mfx() function takes the arguments *args and **kwargs. The mfx() function prints the Good Morning message, calls the add() function with the arguments *args and **kwargs, and prints the Thanks for using this function message.
+
+If we do not use the *args and **kwargs arguments in the mfx() function, then we will get an error.
+
+```python
+def greet(fx):
+  def mfx():
+    print("Good Morning")
+    fx()
+    print("Thanks for using this function")
+  return mfx
+    
+@greet
+def add(x, y):
+  print(x + y)
+
+add(5, 6)
+```
+
+**Output:**
+
+```python
+TypeError: mfx() takes 0 positional arguments but 2 were given
+```
