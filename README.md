@@ -98,3 +98,5 @@ We will be covering the topics day by day. Each day you will be learning new con
 #### [Day-44](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-44) - Introduction to Object Oriented Programming in Python
 
 #### [Day-45](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-45) - Classes and Objects in Python
+
+#### [Day-46](https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python/tree/main/Day-46) - Decorators in Python Programming
