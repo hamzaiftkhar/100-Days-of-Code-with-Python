@@ -109,3 +109,53 @@ add(5, 6)
 ```python
 TypeError: mfx() takes 0 positional arguments but 2 were given
 ```
+
+## Chaining Decorators in Python
+
+Multiple decorators can be chained in Python. This is done by placing the decorators above the function definition in the order that they should be applied.
+
+```python
+# code for testing decorator chaining
+def decor1(func):
+    def inner():
+        x = func()
+        return x * x
+    return inner
+
+def decor(func):
+    def inner():
+        x = func()
+        return 2 * x
+    return inner
+
+@decor1
+@decor
+def num():
+    return 10
+
+@decor
+@decor1
+def num2():
+    return 10
+
+print(num())
+print(num2())
+```
+
+**Output:**
+
+```python
+400
+200
+```
+
+Here in above example, the order of decorators is important. If we change the order of decorators, then the output will also change.
+
+The above code is equivalent to the following code:
+
+```python
+decor1(decor(num))
+decor(decor1(num2))
+```
+
+In above example, the num() function is decorated with the decor() decorator first and then with the decor1() decorator. The num2() function is decorated with the decor1() decorator first and then with the decor() decorator.
