@@ -77,3 +77,39 @@ print(person.age)
 ```
 
 This will also print `20`. So, there is no difference between using the setter method and directly setting the value of the variable.
+
+## Using property() function
+
+To achieve getters & setters property, we can use the `property()` function. The `property()` function returns a property object. The property object has three methods, `getter()`, `setter()`, and `deleter()` to specify `fget`, `fset` and `fdel` function.
+
+**Syntax:**
+
+```python
+property(fget=None, fset=None, fdel=None, doc=None)
+```
+
+**Example:**
+
+```python
+class Person:
+    def __init__(self, initialAge):
+        self.age = initialAge
+
+    def getAge(self):
+        return self.age
+
+    def setAge(self, newAge):
+        self.age = newAge
+
+    age = property(getAge, setAge)
+```
+
+Now, if we want to set the age of a person, we can use the setter method. 
+
+```python
+person = Person(10)
+person.setAge(20)
+print(person.getAge())
+```
+
+This will print `20`.
