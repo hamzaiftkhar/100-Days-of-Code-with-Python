@@ -113,3 +113,33 @@ print(person.getAge())
 ```
 
 This will print `20`.
+
+## Using @property decorator
+
+To achieve getters & setters property, we can use the `@property` decorator. The `@property` decorator is used to customize getters and setters for class attributes.
+
+**Example:**
+
+```python
+class Person:
+    def __init__(self, initialAge):
+        self.age = initialAge
+
+    @property
+    def age(self):
+        return self._age
+
+    @age.setter
+    def age(self, newAge):
+        self._age = newAge
+```
+
+Now, if we want to set the age of a person, we can use the setter method. 
+
+```python
+person = Person(10)
+person.age = 20
+print(person.age)
+```
+
+This will print `20`.
