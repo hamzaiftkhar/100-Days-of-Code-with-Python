@@ -39,3 +39,41 @@ def setAge(self, newAge):
 ```
 
 This would allow you to set the age to a negative number, which is not what you want. But you can change the implementation of the `setAge` method without changing the interface of the `Person` class.
+
+## Using Getters and Setters
+
+To achieve getters & setters property, if we define normal get() and set() methods it will not reflect any special implementation. 
+
+**For Example:**
+
+```python
+class Person:
+    def __init__(self, initialAge):
+        self.age = initialAge
+
+    def getAge(self):
+        return self.age
+
+    def setAge(self, newAge):
+        self.age = newAge
+```
+
+Now, if we want to set the age of a person, we can use the setter method. 
+
+```python
+person = Person(10)
+person.setAge(20)
+print(person.getAge())
+```
+
+This will print `20`.
+
+But, if we want to set the age of a person, we can use direct set method. 
+
+```python
+person = Person(10)
+person.age = 20
+print(person.age)
+```
+
+This will also print `20`. So, there is no difference between using the setter method and directly setting the value of the variable.
