@@ -143,3 +143,5 @@ print(person.age)
 ```
 
 This will print `20`.
+
+The main function of using property function and @property decorator is to make the code more readable and maintainable. It is not necessary to use them. You can use the normal get() and set() methods to achieve the same functionality. But, it is a good practice to use them.
